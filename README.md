@@ -8,7 +8,7 @@ As a proof-of-concept and with the help of computing credits provided by Amazon,
 
 ## Database Basics
 
-At heart **IATI Plus** is an extensible IATI database. It will store a daily-updated copy of IATI's entire corpus (12GB and growing) and additional traversable  information. Specifically the database will give organizations the ability to test adding non-IATI information fields to their aid activity files, providing extra granular information and give organizations and initiatives the ability to add additional data and additional codelists and correlation tables to the database, creating extra nodes and relationships expanding the database's question-answering potential.
+At heart, **IATI Plus** is an extensible IATI database. It will store a daily-updated copy of IATI's entire corpus (12GB and growing) and additional traversable  information. Specifically the database will give organizations the ability to test adding non-IATI information fields to their aid activity files, providing extra granular information and give organizations and initiatives the ability to add additional data and additional codelists and correlation tables to the database, creating extra nodes and relationships expanding the database's question-answering potential.
 
 ## Mission
 
