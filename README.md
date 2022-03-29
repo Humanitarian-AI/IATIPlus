@@ -2,7 +2,7 @@
 
 The Humanitarian AI meetup community is launching a community-wide call-to-action seeking volunteers to work on quickly setting up a new hybrid IATI database to help support relief efforts aiding Ukrainian refugees and IDPs (internally displaced persons).
 
-IATI is an open data sharing (XML) standard and reporting framework humanitarian organizations use to report aid activities, transactions and results. Reporting activities in compliance with IATI makes granular information on activities visible to other organizations and to machine applications, improving operational planning, fundraising and coordination in the field. However, IATI's backend infrastructure is not setup to handle reporting and querying at a scale, sufficient to adequately support the sheer number of organizations and initiatives responding to the Ukrainian humanitarian crisis.
+IATI is an open data sharing (XML) standard and reporting framework humanitarian organizations use to report aid activities, transactions and results. Reporting activities in compliance with IATI makes granular information on activities visible to other organizations and to machine applications, improving operational planning, fundraising and coordination in the field. However, IATI's backend infrastructure is not setup to handle reporting and querying at a scale, sufficient to adequately support the sheer number of organizations and initiatives responding to the Ukrainian humanitarian crisis and their informational needs.
 
 As a proof-of-concept and with the help of computing credits provided by Amazon, volunteers will undertake to setup a powerful new graph database to store and make IATI data accessible to humanitarian organizations and donors in way capable of meeting today's technical needs.
 
