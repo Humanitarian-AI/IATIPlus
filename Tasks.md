@@ -1,6 +1,6 @@
 # Basic Project Task List
 
-A rough list of initial project tasks
+A rough list of initial project tasks:
 
 Task | Description
 ---- | ----
