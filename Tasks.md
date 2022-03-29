@@ -1,5 +1,7 @@
 # Basic Project Task List
 
+A rough list of initial project tasks
+
 Task | Description
 ---- | ----
 Map and setup AWS components | Define and administratively setup core AWS components that the project will need
