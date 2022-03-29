@@ -17,3 +17,5 @@ We aim to see if we can incentivize more organizations to report their aid activ
 ## Get Involved
 
 The Humanitarian AI meetup community is seeking volunteers of all levels to help work on setting up **IATI Plus** and on helping organizations channel aid activity information through the database and use it. To join the project, contact: team (at) humanitarianai.org
+
+Project task list: https://github.com/Humanitarian-AI/IATIPlus/blob/main/Tasks.md
