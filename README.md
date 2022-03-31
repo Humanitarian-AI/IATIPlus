@@ -1,21 +1,23 @@
-# IATI Plus: Neptune Database for Aid Activity Information
+![IATI Plus](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/iati%2B.png)
 
-The Humanitarian AI meetup community is launching a community-wide call-to-action seeking volunteers to work on quickly setting up a new hybrid IATI database to help support relief efforts aiding Ukrainian refugees and IDPs (internally displaced persons).
+The [Humanitarian AI](https://humanitarianai.org/) meetup community is launching a community-wide **call-to-action** seeking volunteers to work on quickly setting up a new IATI database to support relief efforts aiding Ukrainian refugees and IDPs.
 
-IATI is an open data sharing (XML) standard and reporting framework humanitarian organizations use to report aid activities, transactions and results. Reporting activities in compliance with IATI makes granular information on activities visible to other organizations and to machine applications, improving operational planning, fundraising and coordination in the field. However, IATI's backend infrastructure is not setup to handle reporting and querying at a scale, sufficient to adequately support the sheer number of organizations and initiatives responding to the Ukrainian humanitarian crisis and their informational needs.
+## IATI
 
-As a proof-of-concept and with the help of computing credits provided by Amazon, volunteers will undertake to setup a powerful new graph database to store and make IATI data accessible to humanitarian organizations and donors in way capable of meeting today's technical needs.
+IATI is an XML standard humanitarian organizations use to openly share information on aid activities, transactions and results in granular detail. Reporting activities in compliance with IATI helps improve operational transparency, benefitting operational planning, fundraising and coordination across organizations and across crisis theaters. However, IATI's backend infrastructure isn't setup to power sophisticated new machine applications.
 
-## Database Basics
+## Project
 
-At heart, **IATI Plus** is an extensible IATI database. It will store a daily-updated copy of IATI's entire corpus (12GB and growing) and additional traversable  information. Specifically the database will give organizations the ability to test adding non-IATI information fields to their aid activity files, providing extra granular information and give organizations and initiatives the ability to add additional data and additional codelists and correlation tables to the database, creating extra nodes and relationships expanding the database's question-answering potential.
+As a proof-of-concept project supported by Amazon's AWS Nonprofit Credit Program, we're going to setup a Neptune graph database to store a daily-updated copy of IATI's entire corpus configured to support the applicational needs of organizations, initiatives and AI developers responding to the Ukrainian humanitarian crisis.
+
+Unlike conventional IATI data sources, our database (IATI Plus) will be robust enough to support sophisticated research initiatives and power new prototype applications running at scale. **IATI Plus** will give organizations the ability to not only query IATI's entire corpus using virtually any combination of IATI's hundreds of information fields but test the usefulness of new information fields and give organizations the ability to incorporate non-IATI data into the database, creating extra nodes and relationships expanding the database's question-answering potential.
 
 ## Mission
 
-We aim to see if we can incentivize more organizations to report their aid activities, make reporting easier and improve the use and impact of data on relief efforts through our volunteer project.
+Through our volunteer project, we aim to try to support organizations responding to the Ukrainian crisis and help incentivize more organizations to channel aid activity information through open data sharing frameworks which humanitarian AI applications are going to increasingly rely on as data sources.
 
 ## Get Involved
 
-The Humanitarian AI meetup community is seeking volunteers of all levels to help work on setting up **IATI Plus** and on helping organizations channel aid activity information through the database and use it. To join the project, contact: **team (at) humanitarianai.org**
+The Humanitarian AI meetup community is seeking volunteers of all levels to help work on setting up **IATI Plus** and to help organizations use and channel aid activity information through the database. To join the project, contact: **team (at) humanitarianai.org**
 
 Project task list: https://github.com/Humanitarian-AI/IATIPlus/blob/main/Tasks.md
