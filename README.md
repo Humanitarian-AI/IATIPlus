@@ -24,4 +24,4 @@ We're seeking volunteers of all levels to help work on setting up the new AWS Ne
 
 The project will be coordinated through GitHub and Humanitarian AI's Slack workspace and partially supported through computing credits provided by Amazon. To join or to learn more about the project, contact: **team (at) humanitarianai.org**
 
-We will be using [Twitter](https://twitter.com/HumanitarianAI) and Medium to publish updates on the project and contributions to the project can be made through GitHub Sponsors and Open Collective. Stay tuned for more details.
+We will be using [Twitter](https://twitter.com/HumanitarianAI) and [Medium](https://medium.com/humanitarian-ai-today) to publish updates on the project and contributions to the project can be made through [GitHub Sponsors(https://github.com/sponsors/Humanitarian-AI) and [Open Collective](https://opencollective.com/humanitarian-ai/projects/iati-plus). Stay tuned for more details.
