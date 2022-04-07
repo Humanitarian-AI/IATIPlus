@@ -1,6 +1,6 @@
 # Project Documentation
 
-We are organizing this project around sprints and milestones focusing on separate project areas.
+We are organizing this project around **Sprints** and [milestones](https://github.com/Humanitarian-AI/IATIPlus/milestones) focusing on distinct project areas.
 
 ## Sprint 01:
 
