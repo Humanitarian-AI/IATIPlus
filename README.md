@@ -22,6 +22,6 @@ IATI data can be accessed through a host of [initiatives](https://iatistandard.o
 
 We're seeking volunteers of all levels to help work on setting up the new AWS Neptune graph database for the project and a prototype [user interface](http://iatiplus.org/) for it and to help humanitarian organizations and aid initiatives responding to the war and humanitarian crisis in Ukraine channel information on their activities and needs through IATI and IATI Plus.
 
-The project will be coordinated through GitHub and Humanitarian AI's Slack workspace and partially supported through computing credits provided by Amazon. To join or to learn more about the project, contact: **team (at) humanitarianai.org**
+The project will be documented in more detail [here(https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation.md) and coordinated through GitHub and Humanitarian AI's Slack workspace and partially supported through computing credits provided by Amazon. To join or to learn more about the project, contact: **team (at) humanitarianai.org**
 
 We will be using [Twitter](https://twitter.com/HumanitarianAI) and [Medium](https://medium.com/humanitarian-ai-today) to publish updates on the project and contributions to the project can be made through [GitHub Sponsors(https://github.com/sponsors/Humanitarian-AI) and [Open Collective](https://opencollective.com/humanitarian-ai/projects/iati-plus). Stay tuned for more details.
