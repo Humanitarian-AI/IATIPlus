@@ -10,7 +10,7 @@ Refer to our project wiki for [more information](https://github.com/Humanitarian
 
 ## Sprint 01: Create an IATI Publisher List
 
-This sprint will get the project started and concentrate on databasing basic organization information and the URL addresses of all know organization XML files. [Sprint01 Documentation]()
+This sprint will get the project started and concentrate on databasing basic organization information and the URL addresses of all know organization XML files. [Sprint01 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Sprint01.md)
 
 ## Sprint 02: Develop an IATI Data Extractor/Updater
 
