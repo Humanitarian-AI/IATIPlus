@@ -14,18 +14,18 @@ This sprint will get the project started and concentrate on databasing basic org
 
 ## Sprint 02: Develop an IATI Data Extractor/Updater
 
-About
+Under Construction
 
 ## Sprint 03: Setup and Launch IATI Plus Database
 
-About
+Under Construction
 
 ## Sprint 04: Setup User Interface
 
-This sprint will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and queries and the user interface will give humanitarian organizations a way to test report aid activities. We'll use [IATIPlus.org](http://iatiplus.org) for the web interface.
+This sprint will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and queries and the user interface will give humanitarian organizations participating in our **Data Partners** program a way to test report aid activities. We'll use [IATIPlus.org](http://iatiplus.org) for the web interface.
 
 [Sprint04 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint04.md)
 
 ## Sprint 05: Launch Data Partners Program
 
-About
+Under Construction
