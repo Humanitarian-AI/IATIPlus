@@ -37,3 +37,7 @@ Navigating to a file's metadata page will provide information on when the file a
 ![Datasets Graph](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/File_Data.png)
 
 **Sprint 01** will graph information on organizations channeling information through IATI, information listed on each organization found on IATI's publisher list and include all known file URLs and associated file metadata. **Sprint 02** and **Sprint 03** will extract and store information contained in actual organization XML files. For reference, here is Oxfam GB's Afghanistan IATI XML [file](http://iati.oxfam.org.uk/xml/oxfamgb-af.xml) listing individual activities and activity XML elements and attributes.
+
+## AWS Components
+
+Sprint 01 will require setting up the Neptune database and doing some basic formatting on it and setting up either Lambda or EC2 to store executable code.
