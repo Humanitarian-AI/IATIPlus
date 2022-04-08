@@ -22,7 +22,9 @@ About
 
 ## Sprint 04: Setup User Interface
 
-About
+This sprint will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and queries and the user interface will give humanitarian organizations a way to test report aid activities. We'll use [IATIPlus.org](http://iatiplus.org) for the web interface.
+
+[Sprint04 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint04.md)
 
 ## Sprint 05: Launch Data Partners Program
 
