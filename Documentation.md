@@ -1,6 +1,6 @@
 # Project Documentation
 
-We are organizing this project around **Sprints** which serve as [milestones](https://github.com/Humanitarian-AI/IATIPlus/milestones) each focusing on a distinct project area.
+We are organizing this project around **Sprints** which serve as [milestones](https://github.com/Humanitarian-AI/IATIPlus/milestones) each focusing on a distinct [project](https://github.com/orgs/Humanitarian-AI/projects/2/views/1?groupedBy%5BcolumnId%5D=Milestone) area.
 
 Altogether we will be building a **new IATI database** robust enough to support needs reporting at scale as well as power new prototype applications, setting up a basic **user interface** for mainly testing purposes and organizing a **Data Partners** program helping more aid organizations report their needs.
 
