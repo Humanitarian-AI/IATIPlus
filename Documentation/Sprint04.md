@@ -10,6 +10,6 @@ Initially though, the interface will give volunteers working on the project a to
 
 Although we aim to keep our first user interface and apps simple, we are recruiting volunteers to help us design them and their different iterations. We are going to use [Figma](https://www.figma.com/) to facilitate design collaboration.
 
-## Functionality
+## Mobile Apps
 
-Under Construction
+The project is going to work on three [mobile app](https://github.com/Humanitarian-AI/IATIPlus/wiki/Mobile-Apps) user interfaces and one initial website.
