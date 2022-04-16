@@ -12,6 +12,6 @@ Although we aim to keep our first user interface and apps simple, we are recruit
 
 ## Website and Mobile App Screens
 
-![Website Mockup](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Website_mockup_home.png)
+![Website Mockup](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/IATI_previewer.png)
 
 The project is going to work on three [mobile app](https://github.com/Humanitarian-AI/IATIPlus/wiki/Mobile-Apps) user interface screens and one website. To keep UI/UX design work simple the website will mirror different screen views as menue itemas. The screens will closely resemble and function like IATI Registry's [File Preview Website](http://preview.iatistandard.org/index.php?url=https%3A//aidstream.s3.us-west-2.amazonaws.com/xml/cnepal-activities.xml) which parses organization IATI XML files.
