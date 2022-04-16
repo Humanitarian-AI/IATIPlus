@@ -8,8 +8,10 @@ Initially though, the interface will give volunteers working on the project a to
 
 ## UI/UX
 
-Although we aim to keep our first user interface and apps simple, we are recruiting volunteers to help us design them and their different iterations. We are going to use [Figma](https://www.figma.com/) to facilitate design collaboration.
+Although we aim to keep our first user interface and apps simple, we are recruiting volunteers to help us design them and their different iterations. We are going to use [Figma](https://www.figma.com/file/6Psz3zI2WZcgGqgFDEeJfF/iOS-Mockup?node-id=0%3A1) to facilitate design collaboration.
 
-## Mobile Apps
+## Website and Mobile App Screens
 
-The project is going to work on three [mobile app](https://github.com/Humanitarian-AI/IATIPlus/wiki/Mobile-Apps) user interfaces and one initial website.
+![Website Mockup](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Website_mockup_home.png)
+
+The project is going to work on three [mobile app](https://github.com/Humanitarian-AI/IATIPlus/wiki/Mobile-Apps) user interface screens and one website. To keep UI/UX design work simple the website will mirror different screen views as menue itemas. The screens will closely resemble and function like IATI Registry's [File Preview Website](http://preview.iatistandard.org/index.php?url=https%3A//aidstream.s3.us-west-2.amazonaws.com/xml/cnepal-activities.xml) which parses organization IATI XML files.
