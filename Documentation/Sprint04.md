@@ -85,4 +85,4 @@ IATI Plus users will also be able to pledge support to aid activities and contri
 
 We will be using a Google Doc to list website and app functions and UI/UX features for consideration.
 
-Folow this page for more information.
+Follow this page for more information.
