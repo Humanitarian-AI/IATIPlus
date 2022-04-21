@@ -4,6 +4,8 @@
 
 **Sprint 01** will concentrate on creating foundational nodes (see red colored nodes) and relationships to build IATI Plus' graph database around.
 
+Initiatives like the International Aid Transparency Initiative (IATI) and [ReliefWeb](https://reliefweb.int/organization/acmad) list organizations channing information through their initiatives. IATI Plus' first nodes will identify **groups** of organizations, then list (create nodes) for their member organizations and nodes for each organization's dataset page.
+
 ## Publisher Information
 
 ![IATI Pulishers List](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Publishers_List.png)
