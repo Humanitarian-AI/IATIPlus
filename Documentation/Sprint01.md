@@ -20,20 +20,18 @@ On a granular level, Sprint 01 will create aproximately 1400 organization **enti
 
 Although the project will only add a comparatively small number of nodes and relationships to Neptune, as a starting point the sprint will help the team begin setting up IATI Plus' core AWS components and begin generating and testing code.
 
-## Org and Activity File URL Addresses
+## Scrapping File URLs and Metadata
 
-Research by team members needs to be carried out to evaluate ways of sourcing all known IATI XML file URLs using existing IATI [data sources](https://iatistandard.org/en/iati-tools-and-resources/) such as IATI's Datastore. See [issue]() linked to this need.
+Basic information on publishing organizations and their datasets including file URLs and when the files were last updated can be sourced manually through scrapping the IATI Registry and potentially through other IATI [data sources](https://iatistandard.org/en/using-data/). While we research how to aquire the URL addresses of all known XML files published by organizations and when they were last updated through other means, Sprint 01 will concentrate on aquiring the information directly through manual scrapping.
 
-Manually, XML file URLs can be extracted via navigating through IATI's Registry and organization datasets. Other useful information can be extracted as well including when IATI file information was last updated.
+![CARE Nepal Datasets](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_datasets.png)
 
-#### Organization Dataset Page
+Our scrapper will navigate to each organization's **Datasets** page on the IATI Registry, listed on IATI's Publishers List. For reference (see above) we will use CARE Nepal's datasets page as an example.
 
-![Org File](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Org_File.png)
+![CARE Nepal Files](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_files.png)
 
-Using Oxfam GB's [Datasets Page](https://www.iatiregistry.org/publisher/oxfamgb) for reference, individual files can be found listed like this (above). The entries contain links to file metadata, the file's URL (download link) to database in Neptune, and to other information.
+Organization datasets pages list all of the organization's files. Each file entry contains a unique file name and information on when the file was last updated, the number of different activities detailed in the file and the file's URL address (the Download link navigates directly to the file URL).
 
-#### Organization File Metadata
+![CARE Nepal Metadata](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_metadata.png)
 
-![Org Metadata](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Org_Metadata.png)
-
-Navigating to a file's metadata page will provide information on when the file and registry were last updated, to database in Neptune along with how many individual activities are detailed in the file.
+Much of the same information can be accessed by navigating through the **Metadata** link. Uniquely, the metadata page will include information on when the IATI registry was last updated in addition to when the file's data was updated. Because organizations can fail to accruately indicate when activity information was last updated and there can be inconsistances between dates, Sprint 01 will undertake to collect different update datetime information.
