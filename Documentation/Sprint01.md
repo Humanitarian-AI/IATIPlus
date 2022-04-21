@@ -12,9 +12,11 @@ Initiatives like the International Aid Transparency Initiative (IATI) and [Relie
 
 The **IATI Registry** maintains an updated list of organizations channeling aid activity information through the framework. Organizations channel information through IATI by means of publishing XML files on their web servers and then registering file URLs with IATI. Our first sprint (Sprint 01) will tackle how to extract and store up-to-date list information in our Neptune graph database, including all known XML file URL addresses which can be found via navigating through each organization's dataset page. For reference, Oxfam GB's datasets page can be found [here](https://iatiregistry.org/publisher/oxfamgb). Each dataset page lists one or more dataset files each with their own URL.
 
-![Org and URL nodes](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Org_URLs.png)
+## Sprint 01 Nodes
 
-On a granular level, Sprint 01 will create aproximately 1400 organizations nodes, a corresponding number of dataset nodes and connect a small number of initial element field nodes to these core nodes. Organization core nodes for example will branch nodes corresponding to IATI Publisher List fields.
+![Org and URL nodes](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Sprint01_nodes.png)
+
+On a granular level, Sprint 01 will create aproximately 1400 organization **entity** nodes and a corresponding number of **datasets page** nodes. Entity nodes will include properties found on IATI's Publisher List and break out a datasets page node with the page's URL address as a property. The page nodes will branch out nodes corresponding to XML files published by the orgabnizations each with their own unique URL address as a property.
 
 Although the project will only add a comparatively small number of nodes and relationships to Neptune, as a starting point the sprint will help the team begin setting up IATI Plus' core AWS components and begin generating and testing code.
 
