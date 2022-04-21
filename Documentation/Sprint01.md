@@ -38,7 +38,7 @@ Using Oxfam GB's [Datasets Page](https://www.iatiregistry.org/publisher/oxfamgb)
 
 ![Org Metadata](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Org_Metadata.png)
 
-Navigating to a file's metadata page will provide information on when the file and regitery were last updated, to database in Neptune along with how many individual activities are detailed in the file.
+Navigating to a file's metadata page will provide information on when the file and registry were last updated, to database in Neptune along with how many individual activities are detailed in the file.
 
 ## Sprint 01, Sprint 02 and Sprint 03
 
