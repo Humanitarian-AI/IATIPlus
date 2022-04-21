@@ -14,7 +14,7 @@ The **IATI Registry** maintains an updated list of organizations channeling aid 
 
 ![Org and URL nodes](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Org_URLs.png)
 
-On a granular level, Sprint 01 will create aproximately 1400 organizations nodes, a corresponding number of dataset nodes and connect a small number of initial element field nodes to these core nodes.
+On a granular level, Sprint 01 will create aproximately 1400 organizations nodes, a corresponding number of dataset nodes and connect a small number of initial element field nodes to these core nodes. Organization core nodes for example will branch nodes corresponding to IATI Publisher List fields.
 
 Although the project will only add a comparatively small number of nodes and relationships to Neptune, as a starting point the sprint will help the team begin setting up IATI Plus' core AWS components and begin generating and testing code.
 
