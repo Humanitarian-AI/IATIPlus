@@ -24,9 +24,9 @@ Although initially we plan to rely on IATI’s daily dropbox data dump to source
 
 ## URL Addresses
 
-Research by team members needs to be carried out to evaluate ways of soureing all known IATI XML file URLs using existing IATI [data sources](https://iatistandard.org/en/iati-tools-and-resources/) such as IATI's Datastore. See [issue]() linked to this need.
+Research by team members needs to be carried out to evaluate ways of sourcing all known IATI XML file URLs using existing IATI [data sources](https://iatistandard.org/en/iati-tools-and-resources/) such as IATI's Datastore. See [issue]() linked to this need.
 
-Manually, XML file URLs can be extracted via navidating through IATI's Registry and organization datasets. Other useful information can be extracted as well including when IATI file information was last updated.
+Manually, XML file URLs can be extracted via navigating through IATI's Registry and organization datasets. Other useful information can be extracted as well including when IATI file information was last updated.
 
 #### Organization Dataset Page
 
