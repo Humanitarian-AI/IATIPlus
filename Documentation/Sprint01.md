@@ -20,7 +20,7 @@ On a granular level, Sprint 01 will create aproximately 1400 organization **enti
 
 Although the project will only add a comparatively small number of nodes and relationships to Neptune, as a starting point the sprint will help the team begin setting up IATI Plus' core AWS components and begin generating and testing code.
 
-## URL Addresses
+## Org and Activity File URL Addresses
 
 Research by team members needs to be carried out to evaluate ways of sourcing all known IATI XML file URLs using existing IATI [data sources](https://iatistandard.org/en/iati-tools-and-resources/) such as IATI's Datastore. See [issue]() linked to this need.
 
