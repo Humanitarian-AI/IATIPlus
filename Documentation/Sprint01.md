@@ -16,13 +16,13 @@ The **IATI Registry** maintains an updated [list](https://www.iatiregistry.org/p
 
 ![Org and URL nodes](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Sprint01_nodes.png)
 
-On a granular level, Sprint 01 will create aproximately 1400 organization **entity** nodes and a corresponding number of **datasets page** nodes. Entity nodes will include properties found on IATI's Publisher List and break out a datasets page node with the page's URL address as a property. The page nodes will branch out nodes corresponding to XML files published by the orgabnizations each with their own unique URL address as a property.
+On a granular level, Sprint 01 will create approximately 1400 organization **entity** nodes and a corresponding number of **datasets page** nodes. Entity nodes will include properties found on IATI's Publisher List and break out a datasets page node with the page's URL address as a property. The page nodes will branch out nodes corresponding to XML files published by the organizations each with their own unique URL address as a property.
 
 Although the project will only add a comparatively small number of nodes and relationships to Neptune, as a starting point the sprint will help the team begin setting up IATI Plus' core AWS components and begin generating and testing code.
 
 ## Scrapping File URLs and Metadata
 
-Basic information on publishing organizations and their datasets including file URLs and when the files were last updated can be sourced manually through scrapping the IATI Registry and potentially through other IATI [data sources](https://iatistandard.org/en/using-data/). While we research how to aquire the URL addresses of all known XML files published by organizations and when they were last updated through other means, Sprint 01 will concentrate on aquiring the information directly through manual scrapping.
+Basic information on publishing organizations and their datasets including file URLs and when the files were last updated can be sourced manually through scrapping the IATI Registry and potentially through other IATI [data sources](https://iatistandard.org/en/using-data/). While we research how to acquire the URL addresses of all known XML files published by organizations and when they were last updated through other means, Sprint 01 will concentrate on acquiring the information directly through manual scrapping.
 
 ![CARE Nepal Datasets](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_datasets.png)
 
@@ -34,4 +34,4 @@ Organization datasets pages, like CARE Nepal's [datasets page](https://www.iatir
 
 ![CARE Nepal Metadata](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_metadata.png)
 
-Much of the same information can be accessed by navigating through the **Metadata** link. Uniquely, the metadata page will include information on when the IATI registry was last updated in addition to when the file's data was updated. See [metadata](https://www.iatiregistry.org/dataset/cnepal-activities) referencing the first file listed on CARE Nepal's datasets page above. Because organizations can fail to accruately indicate when activity information was last updated and there can be inconsistances between dates, Sprint 01 will undertake to collect different update datetime information.
+Much of the same information can be accessed by navigating through the **Metadata** link. Uniquely, the metadata page will include information on when the IATI registry was last updated in addition to when the file's data was updated. See [metadata](https://www.iatiregistry.org/dataset/cnepal-activities) referencing the first file listed on CARE Nepal's datasets page above. Because organizations can fail to accurately indicate when activity information was last updated and there can be inconsistancies between dates, Sprint 01 will undertake to collect different update datetime information.
