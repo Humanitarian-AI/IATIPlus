@@ -26,12 +26,12 @@ Basic information on publishing organizations and their datasets including file 
 
 ![CARE Nepal Datasets](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_datasets.png)
 
-Our scrapper will navigate to each organization's **Datasets** page on the IATI Registry, listed on IATI's Publishers List. For reference (see above) we will use CARE Nepal's datasets page as an example.
+Our scrapper will navigate to each organization's **Datasets** page on the IATI Registry, listed on IATI's Publishers List. For reference (see above) we will use CARE Nepal's [publisher entry](https://www.iatiregistry.org/publisher/?q=cnepal&sort=title+asc) as an example.
 
 ![CARE Nepal Files](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_files.png)
 
-Organization datasets pages list all of the organization's files. Each file entry contains a unique file name and information on when the file was last updated, the number of different activities detailed in the file and the file's URL address (the Download link navigates directly to the file URL).
+Organization datasets pages, like CARE Nepal's [datasets page](https://www.iatiregistry.org/publisher/cnepal) list all of the organization's files. Each file entry contains a unique file name and information on when the file was last updated, the number of different activities detailed in the file and the file's URL address (the Download link navigates directly to the file URL).
 
 ![CARE Nepal Metadata](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_metadata.png)
 
-Much of the same information can be accessed by navigating through the **Metadata** link. Uniquely, the metadata page will include information on when the IATI registry was last updated in addition to when the file's data was updated. Because organizations can fail to accruately indicate when activity information was last updated and there can be inconsistances between dates, Sprint 01 will undertake to collect different update datetime information.
+Much of the same information can be accessed by navigating through the **Metadata** link. Uniquely, the metadata page will include information on when the IATI registry was last updated in addition to when the file's data was updated. See [metadata](https://www.iatiregistry.org/dataset/cnepal-activities) referencing the first file listed on CARE Nepal's datasets page above. Because organizations can fail to accruately indicate when activity information was last updated and there can be inconsistances between dates, Sprint 01 will undertake to collect different update datetime information.
