@@ -35,3 +35,34 @@ Organization datasets pages, like CARE Nepal's [datasets page](https://www.iatir
 ![CARE Nepal Metadata](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/CARENepal_metadata.png)
 
 Much of the same information can be accessed by navigating through the **Metadata** link. Uniquely, the metadata page will include information on when the IATI registry was last updated in addition to when the file's data was updated. See [metadata](https://www.iatiregistry.org/dataset/cnepal-activities) referencing the first file listed on CARE Nepal's datasets page above. Because organizations can fail to accurately indicate when activity information was last updated and there can be inconsistancies between dates, Sprint 01 will undertake to collect different update datetime information.
+
+## Proposed: IATI Plus Sprint 01 Labels and Properties
+
+Work needs to be carried out to consider and establish node and relationship fields and their label and property names. IATI Plus will primarily extract and check information from IATI data sources and directly from organizations XML files to keep its database up-to-date. Sprint 01 will extract separate information directly from the IATI registry to form a framework to branch XML files to, files which will constantly refresh.
+
+![Sprint 01 Nodes and Labels](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Sprint01_labels.png)
+
+As an idea, to separate foundational data from XML data and to create a multi-purpose foundational graphical structure, we'd like to propose using the following structure, nodes, labels and properties as a starting point. The actual label and property names will need to be edited to suite proper naming conventions though.
+
+Entity metadata will come from IATI's Publisher List while File metadata will come from organization dataset pages. Each XML file will link to it's own File metadata node. Pairing File metadata nodes with XML File nodes (actual XML files published by organizations) will make it possible to compare data-time information for accuracy and give IATI Plus a metadata node to add potential new properties to for studying. This overall structure will suit future plans to add data from ReliefWeb to IATI Plus and data from other groupings linking organizations.
+
+Label | Properties | Note
+--- | --- | ---
+Group | | Node starting point to branch different groups
+Entity | | Group node label
+" | group : IATI | Group name property
+" | name : CARE Nepal | Organization name property
+Entity metadata | | Entity metadata node label
+" | identifier : xyz123 | IATI Org Identifier property
+" | type : NGO | Type of organization property selected from an IATI codelist
+" | country : Nepal | Country property selected from an IATI codelist
+" | datasets : 12 | Number property of separate files published by the organization each with their own URL
+Entity datasets | | Datasets node label
+" | datasets url : http:// | Organization's datasets page URL property listing all files published by the organizations
+File metadata | | Individual file metadata node label
+" | file title : Example File Title | Title property of the file
+" | file URL : http:// | File URL address property
+" | last-update : 2019-07-12 09:47 | The most resent date and time property that a file was updated
+" | last registry update : 2019-08-11 10:17 | The most recent registry update property
+XML file | | XML file stored on organization server
+
