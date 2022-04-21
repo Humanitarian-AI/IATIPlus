@@ -1,5 +1,11 @@
 # Sprint 01: Create an IATI Publisher List
 
+![IATI Plus Database](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/IATIPlus_sprints.png)
+
+**Sprint 01** will concentrate on creating foundational nodes (see red colored nodes) and relationships to build IATI Plus' graph database around.
+
+## Publisher Information
+
 ![IATI Pulishers List](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Publishers_List.png)
 
 The **IATI Registry** maintains an updated list of organizations channeling aid activity information through the framework. Organizations do this by means of publishing XML files on their web servers and then registering file URLs with IATI. Our first sprint (Sprint 01) will tackle how to extract and store up-to-date list information in our Neptune graph database, including all known XML file URL addresses which can be found via navigating through each organization's dataset page. For reference, Oxfam GB's datasets page can be found [here](https://iatiregistry.org/publisher/oxfamgb). Each dataset page lists one or more dataset files each with their own URL.
