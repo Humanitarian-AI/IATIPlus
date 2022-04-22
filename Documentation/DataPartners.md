@@ -4,7 +4,9 @@ A vast and growing number of nonprofits, non-government aid organizations, Unite
 
 Volunteers from the Humanitarian AI meetup community are launching a **Data Partners Program** to help aid providers of all types get acquainted with IATI and get started reporting their aid activities in compliance with the IATI Standard using platforms like **IATI Plus** and [AidStream](https://aidstream.org/).
 
-The program will concentrate on helping aid providers make their work and needs more visible to donors and other organizations, increasing support for their work and improving operational coordination in the field, and on giving organizations a unique opportunity to get involved in helping develop and train emerging humanitarian AI applications.
+![Data Partners](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Data_partners.png)
+
+The program will concentrate on helping aid providers make granular information on their needs, beneficiaries, material aid suppliers, donors and etc more visible to other donors and other organizations, increasing support for their work and improving operational coordination in the field, and on giving organizations a unique opportunity to get involved in helping develop and train emerging humanitarian AI applications.
 
 ## AI Training and Testing
 
