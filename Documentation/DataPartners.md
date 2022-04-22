@@ -6,7 +6,7 @@ Volunteers from the Humanitarian AI meetup community are launching a **Data Part
 
 ![Data Partners](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Data_partners.png)
 
-The program will concentrate on helping aid providers make granular information on their needs, beneficiaries, material aid suppliers, donors and etc more visible to other donors and other organizations, increasing support for their work and improving operational coordination in the field, and on giving organizations a unique opportunity to get involved in helping develop and train emerging humanitarian AI applications.
+The program will concentrate on helping aid providers make granular information on their needs, beneficiaries, material aid suppliers, donors and etc more visible to other donors and other organizations, increasing support for their work and improving operational coordination in the field. Separately, the program will also concentrate on giving organizations a unique opportunity to get involved in helping develop and train emerging humanitarian AI applications.
 
 ## AI Training and Testing
 
