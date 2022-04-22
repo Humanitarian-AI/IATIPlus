@@ -18,10 +18,17 @@ IATI data can be accessed through a host of [initiatives](https://iatistandard.o
 
 **IATI Plus** will contribute to addressing these problems and help spur and support the development of new humanitarian-data-powered applications, including virtual assistants and artificial intelligent applications.
 
+## Documentation
+
+The project is organized around **Sprints** working on setting up and testing different aspects of creating a sophisticated new **graph database** to store aid activity information and an accompanying **user interface**.
+
+Detailed information on sprints is stored in the project's [Documentation Folder](https://github.com/Humanitarian-AI/IATIPlus/tree/main/Documentation). We will be experimenting with using GitHub [Projects](https://github.com/orgs/Humanitarian-AI/projects/2), [Milestones](https://github.com/Humanitarian-AI/IATIPlus/milestones) and [Issues](https://github.com/Humanitarian-AI/IATIPlus/issues) to help document and coordinate the project. 
+
 ## Get Involved
+We're seeking volunteers of all levels to help work on the database and user interface and on helping humanitarian organizations and grassroots aid initiatives responding to the war and humanitarian crisis in Ukraine channel information on their activities and needs through IATI and IATI Plus.
 
-We're seeking volunteers of all levels to help work on setting up the new AWS Neptune graph database for the project and a prototype [user interface](http://iatiplus.org/) for it and to help humanitarian organizations and aid initiatives responding to the war and humanitarian crisis in Ukraine channel information on their activities and needs through IATI and IATI Plus.
+To join the project and the project's Slack workspace or to learn more about the project, contact: team (at) humanitarianai.org
 
-The project will be documented in more detail [here](https://github.com/Humanitarian-AI/IATIPlus/tree/main/Documentation) and coordinated through GitHub and Humanitarian AI's Slack workspace and partially supported through computing credits provided by Amazon. To join or to learn more about the project, contact: **team (at) humanitarianai.org**
+## Contribute
 
-We will be using [Twitter](https://twitter.com/HumanitarianAI) and [Medium](https://medium.com/humanitarian-ai-today) to publish updates on the project and contributions to the project can be made through [GitHub Sponsors(https://github.com/sponsors/Humanitarian-AI) and [Open Collective](https://opencollective.com/humanitarian-ai/projects/iati-plus). Stay tuned for more details.
+The project is an all-volunteer open source initiative with virtually no expenses that need to be covered expect for cloud computing resources and data storage. Contributions to help cover these considerable expenses can be made through [GitHub Sponsors](https://github.com/sponsors/Humanitarian-AI) and [Open Collective](https://opencollective.com/humanitarian-ai/projects/iati-plus).
