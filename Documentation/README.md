@@ -1,6 +1,6 @@
 # Project Documentation
 
-We are organizing this project around **Sprints** that teams can work on simultaniously.
+We are organizing the project around **Sprints** that teams can work on simultaniously.
 
 Altogether we will be building a **new IATI database** robust enough to support needs reporting at scale as well as power new prototype applications, setting up a basic **user interface** for mainly testing purposes and organizing a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md) to help more aid organizations report their needs.
 
