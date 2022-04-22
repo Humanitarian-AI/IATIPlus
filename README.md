@@ -31,4 +31,4 @@ To join the project and the project's Slack workspace or to learn more about the
 
 ## Contribute
 
-The project is an all-volunteer open source initiative with virtually no expenses that need to be covered expect for cloud computing resources and data storage. Contributions to help cover these considerable expenses can be made through [GitHub Sponsors](https://github.com/sponsors/Humanitarian-AI) and [Open Collective](https://opencollective.com/humanitarian-ai/projects/iati-plus).
+The project is an all-volunteer open source initiative. The only expenses we need to cover are for cloud computing resources and data storage. Contributions to help cover these considerable expenses can be made through [GitHub Sponsors](https://github.com/sponsors/Humanitarian-AI) and [Open Collective](https://opencollective.com/humanitarian-ai/projects/iati-plus).
