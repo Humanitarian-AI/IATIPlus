@@ -27,7 +27,7 @@ Detailed information on sprints is stored in the project's [Documentation Folder
 ## Get Involved
 We're seeking volunteers of all levels to help work on the database and user interface and on helping humanitarian organizations and grassroots aid initiatives responding to the war and humanitarian crisis in Ukraine channel information on their activities and needs through IATI and IATI Plus.
 
-To join the project and the project's Slack workspace or to learn more about the project, contact: team (at) humanitarianai.org
+To join the project and the project's Slack workspace or to learn more about the project, contact: **team** (at) **humanitarianai.org**
 
 ## Contribute
 
