@@ -1,6 +1,6 @@
 # Data Partners Program
 
-A vast and growing number of nonprofits, non-government aid organizations, United Nations organizations, government agencies and grassroots initiatives are responding to war in Ukraine and the immense and urgent needs of millions of individuals impacted by the crisis.
+A vast and growing number of nonprofits, non-government aid organizations, United Nations organizations, government agencies and grassroots initiatives are responding to the war in Ukraine and the immense and urgent needs of millions of individuals impacted by the crisis.
 
 Volunteers from the Humanitarian AI meetup community are launching a **Data Partners Program** to help aid providers of all types get acquainted with IATI and get started reporting their aid activities in compliance with the IATI Standard using platforms like **IATI Plus** and [AidStream](https://aidstream.org/).
 
