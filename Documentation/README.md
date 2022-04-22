@@ -10,13 +10,15 @@ Refer to our project wiki for [more information](https://github.com/Humanitarian
 
 ## Sprint 01: Create an IATI Publisher List
 
-This sprint will get the project started and concentrate on databasing basic organization information and the URL addresses of all know organization XML files.
+Sprint 01 will get the project started and concentrate on databasing basic organization information and the URL addresses of all know organization XML files.
 
 [Sprint01 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint01.md)
 
 ## Sprint 02: Develop an IATI Data Extractor/Updater
 
-Under Construction
+Sprint 02 will principally reasearch and develop ways of sourcing IATI data and ways to keep IATI Plus' database up-to-date
+
+[Sprint 02 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint02.md)
 
 ## Sprint 03: Setup and Launch IATI Plus Database
 
@@ -24,10 +26,12 @@ Under Construction
 
 ## Sprint 04: Setup User Interface
 
-This sprint will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and queries and the user interface will give humanitarian organizations participating in our **Data Partners** program a way to test report aid activities. We'll use [IATIPlus.org](http://iatiplus.org) for the web interface.
+Sprint 04 will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and queries and the user interface will give humanitarian organizations participating in our **Data Partners** program a way to test report aid activities. We'll use [IATIPlus.org](http://iatiplus.org) for the web interface.
 
 [Sprint04 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint04.md)
 
 ## Sprint 05: Launch Data Partners Program
 
-Under Construction
+Sprint 05 will launch IATI Plus' Data Partners Program and begin helping NGOs and grassroots relief initiatives report their aid activities.
+
+[Sprint 05 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md)
