@@ -12,6 +12,8 @@ Initiatives like the International Aid Transparency Initiative (IATI) and [Relie
 
 The **IATI Registry** maintains an updated [list](https://www.iatiregistry.org/publisher/) of organizations channeling aid activity information through the framework. Sprint 01 will tackle how to extract and store up-to-date list information in our Neptune graph database. As a side project Sprint 01 will try to extract from the IATI Registry all known organization XML file URL addresses which can be found via navigating through each organization's dataset page. For reference, Oxfam GB's datasets page can be found [here](https://iatiregistry.org/publisher/oxfamgb). Each dataset page lists one or more dataset files each with their own URL.
 
+See related [issue](https://github.com/Humanitarian-AI/IATIPlus/issues/9).
+
 ## Sprint 01 Nodes
 
 ![Org and URL nodes](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Sprint01_nodes.png)
