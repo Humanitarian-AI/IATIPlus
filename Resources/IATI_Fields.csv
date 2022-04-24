@@ -250,7 +250,7 @@ transaction,,,,iati-activities/iati-activity/transaction
 ,sector,,,iati-activities/iati-activity/transaction/sector
 ,vocabulary,xsd:string,Sector Vocabulary,iati-activities/iati-activity/transaction/sector/@vocabulary
 ,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/transaction/sector/@vocabulary-uri
-,code,xsd:string,(DAC 5 Digit Sector)(DAC 3 Digit Sector)(UN Sustainable Development Goals (SDG))(UN Sustainable Development Goals (SDG) Targets),iati-activities/iati-activity/transaction/sector/@code
+,code,xsd:string,(DAC 5 Digit Sector)(DAC 3 Digit Sector),iati-activities/iati-activity/transaction/sector/@code
 ,narrative,,,iati-activities/iati-activity/transaction/sector/narrative
 ,,xsd:string,,iati-activities/iati-activity/transaction/sector/narrative/text()
 ,xml:lang,,Language,iati-activities/iati-activity/transaction/sector/narrative/@xml:lang
