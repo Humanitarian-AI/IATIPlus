@@ -134,7 +134,7 @@ location,,,,iati-activities/iati-activity/location
 sector,,,,iati-activities/iati-activity/sector
 ,vocabulary,xsd:string,Sector Vocabulary,iati-activities/iati-activity/sector/@vocabulary
 ,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/sector/@vocabulary-uri
-,code,xsd:string,(DAC 5 Digit Sector)(DAC 3 Digit Sector)(UN Sustainable Development Goals (SDG))(UN Sustainable Development Goals (SDG) Targets),iati-activities/iati-activity/sector/@code
+,code,xsd:string,(DAC 5 Digit Sector)(DAC 3 Digit Sector),iati-activities/iati-activity/sector/@code
 ,percentage,xsd:decimal,,iati-activities/iati-activity/sector/@percentage
 ,narrative,,,iati-activities/iati-activity/sector/narrative
 ,,xsd:string,,iati-activities/iati-activity/sector/narrative/text()
