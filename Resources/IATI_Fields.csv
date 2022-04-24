@@ -1,0 +1,499 @@
+,,,,
+Section,Item,Type,Codelist,XML
+iati-activities,,,,iati-activities
+,version,xsd:string,Version,iati-activities/@version
+,generated-datetime,xsd:dateTime,,iati-activities/@generated-datetime
+,linked-data-default,xsd:anyURI,,iati-activities/@linked-data-default
+iati-activity,,,,iati-activities/iati-activity
+,last-updated-datetime,xsd:dateTime,,iati-activities/iati-activity/@last-updated-datetime
+,xml:lang,,Language,iati-activities/iati-activity/@xml:lang
+,default-currency,xsd:string,Currency,iati-activities/iati-activity/@default-currency
+,humanitarian,xsd:boolean,,iati-activities/iati-activity/@humanitarian
+,hierarchy,xsd:int,,iati-activities/iati-activity/@hierarchy
+,linked-data-uri,xsd:anyURI,,iati-activities/iati-activity/@linked-data-uri
+,budget-not-provided,xsd:string,Budget Not Provided,iati-activities/iati-activity/@budget-not-provided
+iati-identifier,,,,iati-activities/iati-activity/iati-identifier
+,,xsd:string,,iati-activities/iati-activity/iati-identifier/text()
+reporting-org,,,,iati-activities/iati-activity/reporting-org
+,ref,xsd:string,,iati-activities/iati-activity/reporting-org/@ref
+,type,xsd:string,Organisation Type,iati-activities/iati-activity/reporting-org/@type
+,secondary-reporter,xsd:boolean,,iati-activities/iati-activity/reporting-org/@secondary-reporter
+,narrative,,,iati-activities/iati-activity/reporting-org/narrative
+,,xsd:string,,iati-activities/iati-activity/reporting-org/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/reporting-org/narrative/@xml:lang
+title,,,,iati-activities/iati-activity/title
+,narrative,,,iati-activities/iati-activity/title/narrative
+,,xsd:string,,iati-activities/iati-activity/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/title/narrative/@xml:lang
+description,,,,iati-activities/iati-activity/description
+,type,xsd:string,Description Type,iati-activities/iati-activity/description/@type
+,narrative,,,iati-activities/iati-activity/description/narrative
+,,xsd:string,,iati-activities/iati-activity/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/description/narrative/@xml:lang
+participating-org,,,,iati-activities/iati-activity/participating-org
+,ref,xsd:string,,iati-activities/iati-activity/participating-org/@ref
+,type,xsd:string,Organisation Type,iati-activities/iati-activity/participating-org/@type
+,role,xsd:string,Organisation Role,iati-activities/iati-activity/participating-org/@role
+,activity-id,xsd:string,,iati-activities/iati-activity/participating-org/@activity-id
+,crs-channel-code,xsd:string,CRS Channel Code,iati-activities/iati-activity/participating-org/@crs-channel-code
+,narrative,,,iati-activities/iati-activity/participating-org/narrative
+,,xsd:string,,iati-activities/iati-activity/participating-org/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/participating-org/narrative/@xml:lang
+other-identifier,,,,iati-activities/iati-activity/other-identifier
+,ref,xsd:string,,iati-activities/iati-activity/other-identifier/@ref
+,type,xsd:string,Other Identifier Type,iati-activities/iati-activity/other-identifier/@type
+,owner-org,,,iati-activities/iati-activity/other-identifier/owner-org
+,ref,xsd:string,,iati-activities/iati-activity/other-identifier/owner-org/@ref
+,narrative,,,iati-activities/iati-activity/other-identifier/owner-org/narrative
+,,xsd:string,,iati-activities/iati-activity/other-identifier/owner-org/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/other-identifier/owner-org/narrative/@xml:lang
+activity-status,,,,iati-activities/iati-activity/activity-status
+,code,xsd:string,Activity Status,iati-activities/iati-activity/activity-status/@code
+activity-date,,,,iati-activities/iati-activity/activity-date
+,type,xsd:string,Activity Date Type,iati-activities/iati-activity/activity-date/@type
+,iso-date,xsd:date,,iati-activities/iati-activity/activity-date/@iso-date
+,narrative,,,iati-activities/iati-activity/activity-date/narrative
+,,xsd:string,,iati-activities/iati-activity/activity-date/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/activity-date/narrative/@xml:lang
+contact-info,,,,iati-activities/iati-activity/contact-info
+,type,xsd:string,Contact Type,iati-activities/iati-activity/contact-info/@type
+,organisation,,,iati-activities/iati-activity/contact-info/organisation
+,narrative,,,iati-activities/iati-activity/contact-info/organisation/narrative
+,,xsd:string,,iati-activities/iati-activity/contact-info/organisation/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/contact-info/organisation/narrative/@xml:lang
+,department,,,iati-activities/iati-activity/contact-info/department
+,narrative,,,iati-activities/iati-activity/contact-info/department/narrative
+,,xsd:string,,iati-activities/iati-activity/contact-info/department/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/contact-info/department/narrative/@xml:lang
+,person-name,,,iati-activities/iati-activity/contact-info/person-name
+,narrative,,,iati-activities/iati-activity/contact-info/person-name/narrative
+,,xsd:string,,iati-activities/iati-activity/contact-info/person-name/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/contact-info/person-name/narrative/@xml:lang
+,job-title,,,iati-activities/iati-activity/contact-info/job-title
+,narrative,,,iati-activities/iati-activity/contact-info/job-title/narrative
+,,xsd:string,,iati-activities/iati-activity/contact-info/job-title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/contact-info/job-title/narrative/@xml:lang
+,telephone,,,iati-activities/iati-activity/contact-info/telephone
+,,xsd:string,,iati-activities/iati-activity/contact-info/telephone/text()
+,email,,,iati-activities/iati-activity/contact-info/email
+,,xsd:string,,iati-activities/iati-activity/contact-info/email/text()
+,website,,,iati-activities/iati-activity/contact-info/website
+,,xsd:anyURI,,iati-activities/iati-activity/contact-info/website/text()
+,mailing-address,,,iati-activities/iati-activity/contact-info/mailing-address
+,narrative,,,iati-activities/iati-activity/contact-info/mailing-address/narrative
+,,xsd:string,,iati-activities/iati-activity/contact-info/mailing-address/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/contact-info/mailing-address/narrative/@xml:lang
+activity-scope,,,,iati-activities/iati-activity/activity-scope
+,code,xsd:string,Activity Scope,iati-activities/iati-activity/activity-scope/@code
+recipient-country,,,,iati-activities/iati-activity/recipient-country
+,code,xsd:string,Country,iati-activities/iati-activity/recipient-country/@code
+,percentage,xsd:decimal,,iati-activities/iati-activity/recipient-country/@percentage
+,narrative,,,iati-activities/iati-activity/recipient-country/narrative
+,,xsd:string,,iati-activities/iati-activity/recipient-country/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/recipient-country/narrative/@xml:lang
+recipient-region,,,,iati-activities/iati-activity/recipient-region
+,code,xsd:string,(Region),iati-activities/iati-activity/recipient-region/@code
+,vocabulary,xsd:string,Region Vocabulary,iati-activities/iati-activity/recipient-region/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/recipient-region/@vocabulary-uri
+,percentage,xsd:decimal,,iati-activities/iati-activity/recipient-region/@percentage
+,narrative,,,iati-activities/iati-activity/recipient-region/narrative
+,,xsd:string,,iati-activities/iati-activity/recipient-region/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/recipient-region/narrative/@xml:lang
+location,,,,iati-activities/iati-activity/location
+,ref,xsd:string,,iati-activities/iati-activity/location/@ref
+,location-reach,,,iati-activities/iati-activity/location/location-reach
+,code,xsd:string,Geographic Location Reach,iati-activities/iati-activity/location/location-reach/@code
+,location-id,,,iati-activities/iati-activity/location/location-id
+,code,xsd:string,,iati-activities/iati-activity/location/location-id/@code
+,vocabulary,xsd:string,Geographic Vocabulary,iati-activities/iati-activity/location/location-id/@vocabulary
+,name,,,iati-activities/iati-activity/location/name
+,narrative,,,iati-activities/iati-activity/location/name/narrative
+,,xsd:string,,iati-activities/iati-activity/location/name/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/location/name/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/location/description
+,narrative,,,iati-activities/iati-activity/location/description/narrative
+,,xsd:string,,iati-activities/iati-activity/location/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/location/description/narrative/@xml:lang
+,activity-description,,,iati-activities/iati-activity/location/activity-description
+,narrative,,,iati-activities/iati-activity/location/activity-description/narrative
+,,xsd:string,,iati-activities/iati-activity/location/activity-description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/location/activity-description/narrative/@xml:lang
+,administrative,,,iati-activities/iati-activity/location/administrative
+,code,xsd:string,(Country),iati-activities/iati-activity/location/administrative/@code
+,vocabulary,xsd:string,Geographic Vocabulary,iati-activities/iati-activity/location/administrative/@vocabulary
+,level,xsd:nonNegativeInteger,,iati-activities/iati-activity/location/administrative/@level
+,point,,,iati-activities/iati-activity/location/point
+,srsName,xsd:string,,iati-activities/iati-activity/location/point/@srsName
+,pos,xsd:string,,iati-activities/iati-activity/location/point/pos
+,exactness,,,iati-activities/iati-activity/location/exactness
+,code,xsd:string,Geographic Exactness,iati-activities/iati-activity/location/exactness/@code
+,location-class,,,iati-activities/iati-activity/location/location-class
+,code,xsd:string,Geographic Location Class,iati-activities/iati-activity/location/location-class/@code
+,feature-designation,,,iati-activities/iati-activity/location/feature-designation
+,code,xsd:string,Location Type,iati-activities/iati-activity/location/feature-designation/@code
+sector,,,,iati-activities/iati-activity/sector
+,vocabulary,xsd:string,Sector Vocabulary,iati-activities/iati-activity/sector/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/sector/@vocabulary-uri
+,code,xsd:string,(DAC 5 Digit Sector)(DAC 3 Digit Sector)(UN Sustainable Development Goals (SDG))(UN Sustainable Development Goals (SDG) Targets),iati-activities/iati-activity/sector/@code
+,percentage,xsd:decimal,,iati-activities/iati-activity/sector/@percentage
+,narrative,,,iati-activities/iati-activity/sector/narrative
+,,xsd:string,,iati-activities/iati-activity/sector/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/sector/narrative/@xml:lang
+tag,,,,iati-activities/iati-activity/tag
+,code,xsd:string,(UN Sustainable Development Goals (SDG))(UN Sustainable Development Goals (SDG) Targets),iati-activities/iati-activity/tag/@code
+,vocabulary,xsd:string,Tag Vocabulary,iati-activities/iati-activity/tag/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/tag/@vocabulary-uri
+,narrative,,,iati-activities/iati-activity/tag/narrative
+,,xsd:string,,iati-activities/iati-activity/tag/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/tag/narrative/@xml:lang
+country-budget-items,,,,iati-activities/iati-activity/country-budget-items
+,vocabulary,xsd:string,Budget Identifier Vocabulary,iati-activities/iati-activity/country-budget-items/@vocabulary
+,budget-item,,,iati-activities/iati-activity/country-budget-items/budget-item
+,code,xsd:string,(Budget Identifier),iati-activities/iati-activity/country-budget-items/budget-item/@code
+,percentage,xsd:decimal,,iati-activities/iati-activity/country-budget-items/budget-item/@percentage
+,description,,,iati-activities/iati-activity/country-budget-items/budget-item/description
+,narrative,,,iati-activities/iati-activity/country-budget-items/budget-item/description/narrative
+,,xsd:string,,iati-activities/iati-activity/country-budget-items/budget-item/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/country-budget-items/budget-item/description/narrative/@xml:lang
+humanitarian-scope,,,,iati-activities/iati-activity/humanitarian-scope
+,type,xsd:string,Humanitarian Scope Type,iati-activities/iati-activity/humanitarian-scope/@type
+,vocabulary,xsd:string,Humanitarian Scope Vocabulary,iati-activities/iati-activity/humanitarian-scope/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/humanitarian-scope/@vocabulary-uri
+,code,xsd:string,,iati-activities/iati-activity/humanitarian-scope/@code
+,narrative,,,iati-activities/iati-activity/humanitarian-scope/narrative
+,,xsd:string,,iati-activities/iati-activity/humanitarian-scope/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/humanitarian-scope/narrative/@xml:lang
+policy-marker,,,,iati-activities/iati-activity/policy-marker
+,vocabulary,xsd:string,Policy Marker Vocabulary,iati-activities/iati-activity/policy-marker/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/policy-marker/@vocabulary-uri
+,code,xsd:string,(Policy Marker),iati-activities/iati-activity/policy-marker/@code
+,significance,xsd:string,Policy Significance,iati-activities/iati-activity/policy-marker/@significance
+,narrative,,,iati-activities/iati-activity/policy-marker/narrative
+,,xsd:string,,iati-activities/iati-activity/policy-marker/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/policy-marker/narrative/@xml:lang
+collaboration-type,,,,iati-activities/iati-activity/collaboration-type
+,code,xsd:string,Collaboration Type,iati-activities/iati-activity/collaboration-type/@code
+default-flow-type,,,,iati-activities/iati-activity/default-flow-type
+,code,xsd:string,Flow Type,iati-activities/iati-activity/default-flow-type/@code
+default-finance-type,,,,iati-activities/iati-activity/default-finance-type
+,code,xsd:string,Finance Type,iati-activities/iati-activity/default-finance-type/@code
+default-aid-type,,,,iati-activities/iati-activity/default-aid-type
+,code,xsd:string,(Aid Type)(Earmarking Category)(Cash and Voucher Modalities),iati-activities/iati-activity/default-aid-type/@code
+,vocabulary,xsd:string,Aid Type Vocabulary,iati-activities/iati-activity/default-aid-type/@vocabulary
+default-tied-status,,,,iati-activities/iati-activity/default-tied-status
+,code,xsd:string,Tied Status,iati-activities/iati-activity/default-tied-status/@code
+budget,,,,iati-activities/iati-activity/budget
+,type,xsd:string,Budget Type,iati-activities/iati-activity/budget/@type
+,status,xsd:string,Budget Status,iati-activities/iati-activity/budget/@status
+,period-start,,,iati-activities/iati-activity/budget/period-start
+,iso-date,xsd:date,,iati-activities/iati-activity/budget/period-start/@iso-date
+,period-end,,,iati-activities/iati-activity/budget/period-end
+,iso-date,xsd:date,,iati-activities/iati-activity/budget/period-end/@iso-date
+,value,xsd:decimal,,iati-activities/iati-activity/budget/value
+,currency,xsd:string,Currency,iati-activities/iati-activity/budget/value/@currency
+,value-date,xsd:date,,iati-activities/iati-activity/budget/value/@value-date
+planned-disbursement,,,,iati-activities/iati-activity/planned-disbursement
+,type,xsd:string,Budget Type,iati-activities/iati-activity/planned-disbursement/@type
+,period-start,,,iati-activities/iati-activity/planned-disbursement/period-start
+,iso-date,xsd:date,,iati-activities/iati-activity/planned-disbursement/period-start/@iso-date
+,period-end,,,iati-activities/iati-activity/planned-disbursement/period-end
+,iso-date,xsd:date,,iati-activities/iati-activity/planned-disbursement/period-end/@iso-date
+,value,xsd:decimal,,iati-activities/iati-activity/planned-disbursement/value
+,currency,xsd:string,Currency,iati-activities/iati-activity/planned-disbursement/value/@currency
+,value-date,xsd:date,,iati-activities/iati-activity/planned-disbursement/value/@value-date
+,provider-org,,,iati-activities/iati-activity/planned-disbursement/provider-org
+,ref,xsd:string,,iati-activities/iati-activity/planned-disbursement/provider-org/@ref
+,provider-activity-id,xsd:string,,iati-activities/iati-activity/planned-disbursement/provider-org/@provider-activity-id
+,type,xsd:string,Organisation Type,iati-activities/iati-activity/planned-disbursement/provider-org/@type
+,narrative,,,iati-activities/iati-activity/planned-disbursement/provider-org/narrative
+,,xsd:string,,iati-activities/iati-activity/planned-disbursement/provider-org/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/planned-disbursement/provider-org/narrative/@xml:lang
+,receiver-org,,,iati-activities/iati-activity/planned-disbursement/receiver-org
+,ref,xsd:string,,iati-activities/iati-activity/planned-disbursement/receiver-org/@ref
+,receiver-activity-id,xsd:string,,iati-activities/iati-activity/planned-disbursement/receiver-org/@receiver-activity-id
+,type,xsd:string,Organisation Type,iati-activities/iati-activity/planned-disbursement/receiver-org/@type
+,narrative,,,iati-activities/iati-activity/planned-disbursement/receiver-org/narrative
+,,xsd:string,,iati-activities/iati-activity/planned-disbursement/receiver-org/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/planned-disbursement/receiver-org/narrative/@xml:lang
+capital-spend,,,,iati-activities/iati-activity/capital-spend
+,percentage,xsd:decimal,,iati-activities/iati-activity/capital-spend/@percentage
+transaction,,,,iati-activities/iati-activity/transaction
+,ref,xsd:string,,iati-activities/iati-activity/transaction/@ref
+,humanitarian,xsd:boolean,,iati-activities/iati-activity/transaction/@humanitarian
+,transaction-type,,,iati-activities/iati-activity/transaction/transaction-type
+,code,xsd:string,Transaction Type,iati-activities/iati-activity/transaction/transaction-type/@code
+,transaction-date,,,iati-activities/iati-activity/transaction/transaction-date
+,iso-date,xsd:date,,iati-activities/iati-activity/transaction/transaction-date/@iso-date
+,value,xsd:decimal,,iati-activities/iati-activity/transaction/value
+,currency,xsd:string,Currency,iati-activities/iati-activity/transaction/value/@currency
+,value-date,xsd:date,,iati-activities/iati-activity/transaction/value/@value-date
+,description,,,iati-activities/iati-activity/transaction/description
+,narrative,,,iati-activities/iati-activity/transaction/description/narrative
+,,xsd:string,,iati-activities/iati-activity/transaction/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/transaction/description/narrative/@xml:lang
+,provider-org,,,iati-activities/iati-activity/transaction/provider-org
+,ref,xsd:string,,iati-activities/iati-activity/transaction/provider-org/@ref
+,provider-activity-id,xsd:string,,iati-activities/iati-activity/transaction/provider-org/@provider-activity-id
+,type,xsd:string,Organisation Type,iati-activities/iati-activity/transaction/provider-org/@type
+,narrative,,,iati-activities/iati-activity/transaction/provider-org/narrative
+,,xsd:string,,iati-activities/iati-activity/transaction/provider-org/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/transaction/provider-org/narrative/@xml:lang
+,receiver-org,,,iati-activities/iati-activity/transaction/receiver-org
+,ref,xsd:string,,iati-activities/iati-activity/transaction/receiver-org/@ref
+,receiver-activity-id,xsd:string,,iati-activities/iati-activity/transaction/receiver-org/@receiver-activity-id
+,type,xsd:string,Organisation Type,iati-activities/iati-activity/transaction/receiver-org/@type
+,narrative,,,iati-activities/iati-activity/transaction/receiver-org/narrative
+,,xsd:string,,iati-activities/iati-activity/transaction/receiver-org/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/transaction/receiver-org/narrative/@xml:lang
+,disbursement-channel,,,iati-activities/iati-activity/transaction/disbursement-channel
+,code,xsd:string,Disbursement Channel,iati-activities/iati-activity/transaction/disbursement-channel/@code
+,sector,,,iati-activities/iati-activity/transaction/sector
+,vocabulary,xsd:string,Sector Vocabulary,iati-activities/iati-activity/transaction/sector/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/transaction/sector/@vocabulary-uri
+,code,xsd:string,(DAC 5 Digit Sector)(DAC 3 Digit Sector)(UN Sustainable Development Goals (SDG))(UN Sustainable Development Goals (SDG) Targets),iati-activities/iati-activity/transaction/sector/@code
+,narrative,,,iati-activities/iati-activity/transaction/sector/narrative
+,,xsd:string,,iati-activities/iati-activity/transaction/sector/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/transaction/sector/narrative/@xml:lang
+,recipient-country,,,iati-activities/iati-activity/transaction/recipient-country
+,code,xsd:string,Country,iati-activities/iati-activity/transaction/recipient-country/@code
+,narrative,,,iati-activities/iati-activity/transaction/recipient-country/narrative
+,,xsd:string,,iati-activities/iati-activity/transaction/recipient-country/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/transaction/recipient-country/narrative/@xml:lang
+,recipient-region,,,iati-activities/iati-activity/transaction/recipient-region
+,code,xsd:string,(Region),iati-activities/iati-activity/transaction/recipient-region/@code
+,vocabulary,xsd:string,Region Vocabulary,iati-activities/iati-activity/transaction/recipient-region/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/transaction/recipient-region/@vocabulary-uri
+,narrative,,,iati-activities/iati-activity/transaction/recipient-region/narrative
+,,xsd:string,,iati-activities/iati-activity/transaction/recipient-region/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/transaction/recipient-region/narrative/@xml:lang
+,flow-type,,,iati-activities/iati-activity/transaction/flow-type
+,code,xsd:string,Flow Type,iati-activities/iati-activity/transaction/flow-type/@code
+,finance-type,,,iati-activities/iati-activity/transaction/finance-type
+,code,xsd:string,Finance Type,iati-activities/iati-activity/transaction/finance-type/@code
+,aid-type,,,iati-activities/iati-activity/transaction/aid-type
+,code,xsd:string,(Aid Type)(Earmarking Category)(Cash and Voucher Modalities),iati-activities/iati-activity/transaction/aid-type/@code
+,vocabulary,xsd:string,Aid Type Vocabulary,iati-activities/iati-activity/transaction/aid-type/@vocabulary
+,tied-status,,,iati-activities/iati-activity/transaction/tied-status
+,code,xsd:string,Tied Status,iati-activities/iati-activity/transaction/tied-status/@code
+document-link,,,,iati-activities/iati-activity/document-link
+,url,xsd:anyURI,,iati-activities/iati-activity/document-link/@url
+,format,xsd:string,File Format,iati-activities/iati-activity/document-link/@format
+,title,,,iati-activities/iati-activity/document-link/title
+,narrative,,,iati-activities/iati-activity/document-link/title/narrative
+,,xsd:string,,iati-activities/iati-activity/document-link/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/document-link/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/document-link/description
+,narrative,,,iati-activities/iati-activity/document-link/description/narrative
+,,xsd:string,,iati-activities/iati-activity/document-link/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/document-link/description/narrative/@xml:lang
+,category,,,iati-activities/iati-activity/document-link/category
+,code,xsd:string,Document Category,iati-activities/iati-activity/document-link/category/@code
+,language,,,iati-activities/iati-activity/document-link/language
+,code,xsd:string,Language,iati-activities/iati-activity/document-link/language/@code
+,document-date,,,iati-activities/iati-activity/document-link/document-date
+,iso-date,xsd:date,,iati-activities/iati-activity/document-link/document-date/@iso-date
+related-activity,,,,iati-activities/iati-activity/related-activity
+,ref,xsd:string,,iati-activities/iati-activity/related-activity/@ref
+,type,xsd:string,Related Activity Type,iati-activities/iati-activity/related-activity/@type
+legacy-data,,,,iati-activities/iati-activity/legacy-data
+,name,xsd:string,,iati-activities/iati-activity/legacy-data/@name
+,value,xsd:string,,iati-activities/iati-activity/legacy-data/@value
+,iati-equivalent,xsd:NMTOKEN,,iati-activities/iati-activity/legacy-data/@iati-equivalent
+conditions,,,,iati-activities/iati-activity/conditions
+,attached,xsd:boolean,,iati-activities/iati-activity/conditions/@attached
+,condition,,,iati-activities/iati-activity/conditions/condition
+,type,xsd:string,Condition Type,iati-activities/iati-activity/conditions/condition/@type
+,narrative,,,iati-activities/iati-activity/conditions/condition/narrative
+,,xsd:string,,iati-activities/iati-activity/conditions/condition/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/conditions/condition/narrative/@xml:lang
+result,,,,iati-activities/iati-activity/result
+,type,xsd:string,Result Type,iati-activities/iati-activity/result/@type
+,aggregation-status,xsd:boolean,,iati-activities/iati-activity/result/@aggregation-status
+,title,,,iati-activities/iati-activity/result/title
+,narrative,,,iati-activities/iati-activity/result/title/narrative
+,,xsd:string,,iati-activities/iati-activity/result/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/result/description
+,narrative,,,iati-activities/iati-activity/result/description/narrative
+,,xsd:string,,iati-activities/iati-activity/result/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/description/narrative/@xml:lang
+,document-link,,,iati-activities/iati-activity/result/document-link
+,url,xsd:anyURI,,iati-activities/iati-activity/result/document-link/@url
+,format,xsd:string,File Format,iati-activities/iati-activity/result/document-link/@format
+,title,,,iati-activities/iati-activity/result/document-link/title
+,narrative,,,iati-activities/iati-activity/result/document-link/title/narrative
+,,xsd:string,,iati-activities/iati-activity/result/document-link/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/document-link/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/result/document-link/description
+,narrative,,,iati-activities/iati-activity/result/document-link/description/narrative
+,,xsd:string,,iati-activities/iati-activity/result/document-link/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/document-link/description/narrative/@xml:lang
+,category,,,iati-activities/iati-activity/result/document-link/category
+,code,xsd:string,Document Category,iati-activities/iati-activity/result/document-link/category/@code
+,language,,,iati-activities/iati-activity/result/document-link/language
+,code,xsd:string,Language,iati-activities/iati-activity/result/document-link/language/@code
+,document-date,,,iati-activities/iati-activity/result/document-link/document-date
+,iso-date,xsd:date,,iati-activities/iati-activity/result/document-link/document-date/@iso-date
+,reference,,,iati-activities/iati-activity/result/reference
+,code,xsd:string,,iati-activities/iati-activity/result/reference/@code
+,vocabulary,xsd:string,Result Vocabulary,iati-activities/iati-activity/result/reference/@vocabulary
+,vocabulary-uri,xsd:anyURI,,iati-activities/iati-activity/result/reference/@vocabulary-uri
+,indicator,,,iati-activities/iati-activity/result/indicator
+,measure,xsd:string,Indicator Measure,iati-activities/iati-activity/result/indicator/@measure
+,ascending,xsd:boolean,,iati-activities/iati-activity/result/indicator/@ascending
+,aggregation-status,xsd:boolean,,iati-activities/iati-activity/result/indicator/@aggregation-status
+,title,,,iati-activities/iati-activity/result/indicator/title
+,narrative,,,iati-activities/iati-activity/result/indicator/title/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/result/indicator/description
+,narrative,,,iati-activities/iati-activity/result/indicator/description/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/description/narrative/@xml:lang
+,document-link,,,iati-activities/iati-activity/result/indicator/document-link
+,url,xsd:anyURI,,iati-activities/iati-activity/result/indicator/document-link/@url
+,format,xsd:string,File Format,iati-activities/iati-activity/result/indicator/document-link/@format
+,title,,,iati-activities/iati-activity/result/indicator/document-link/title
+,narrative,,,iati-activities/iati-activity/result/indicator/document-link/title/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/document-link/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/document-link/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/result/indicator/document-link/description
+,narrative,,,iati-activities/iati-activity/result/indicator/document-link/description/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/document-link/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/document-link/description/narrative/@xml:lang
+,category,,,iati-activities/iati-activity/result/indicator/document-link/category
+,code,xsd:string,Document Category,iati-activities/iati-activity/result/indicator/document-link/category/@code
+,language,,,iati-activities/iati-activity/result/indicator/document-link/language
+,code,xsd:string,Language,iati-activities/iati-activity/result/indicator/document-link/language/@code
+,document-date,,,iati-activities/iati-activity/result/indicator/document-link/document-date
+,iso-date,xsd:date,,iati-activities/iati-activity/result/indicator/document-link/document-date/@iso-date
+,reference,,,iati-activities/iati-activity/result/indicator/reference
+,vocabulary,xsd:string,Indicator Vocabulary,iati-activities/iati-activity/result/indicator/reference/@vocabulary
+,code,xsd:string,,iati-activities/iati-activity/result/indicator/reference/@code
+,indicator-uri,xsd:anyURI,,iati-activities/iati-activity/result/indicator/reference/@indicator-uri
+,baseline,,,iati-activities/iati-activity/result/indicator/baseline
+,iso-date,xsd:date,,iati-activities/iati-activity/result/indicator/baseline/@iso-date
+,year,xsd:positiveInteger,,iati-activities/iati-activity/result/indicator/baseline/@year
+,value,xsd:string,,iati-activities/iati-activity/result/indicator/baseline/@value
+,location,,,iati-activities/iati-activity/result/indicator/baseline/location
+,ref,xsd:string,,iati-activities/iati-activity/result/indicator/baseline/location/@ref
+,dimension,,,iati-activities/iati-activity/result/indicator/baseline/dimension
+,name,xsd:string,,iati-activities/iati-activity/result/indicator/baseline/dimension/@name
+,value,xsd:string,,iati-activities/iati-activity/result/indicator/baseline/dimension/@value
+,document-link,,,iati-activities/iati-activity/result/indicator/baseline/document-link
+,url,xsd:anyURI,,iati-activities/iati-activity/result/indicator/baseline/document-link/@url
+,format,xsd:string,File Format,iati-activities/iati-activity/result/indicator/baseline/document-link/@format
+,title,,,iati-activities/iati-activity/result/indicator/baseline/document-link/title
+,narrative,,,iati-activities/iati-activity/result/indicator/baseline/document-link/title/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/baseline/document-link/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/baseline/document-link/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/result/indicator/baseline/document-link/description
+,narrative,,,iati-activities/iati-activity/result/indicator/baseline/document-link/description/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/baseline/document-link/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/baseline/document-link/description/narrative/@xml:lang
+,category,,,iati-activities/iati-activity/result/indicator/baseline/document-link/category
+,code,xsd:string,Document Category,iati-activities/iati-activity/result/indicator/baseline/document-link/category/@code
+,language,,,iati-activities/iati-activity/result/indicator/baseline/document-link/language
+,code,xsd:string,Language,iati-activities/iati-activity/result/indicator/baseline/document-link/language/@code
+,document-date,,,iati-activities/iati-activity/result/indicator/baseline/document-link/document-date
+,iso-date,xsd:date,,iati-activities/iati-activity/result/indicator/baseline/document-link/document-date/@iso-date
+,comment,,,iati-activities/iati-activity/result/indicator/baseline/comment
+,narrative,,,iati-activities/iati-activity/result/indicator/baseline/comment/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/baseline/comment/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/baseline/comment/narrative/@xml:lang
+,period,,,iati-activities/iati-activity/result/indicator/period
+,period-start,,,iati-activities/iati-activity/result/indicator/period/period-start
+,iso-date,xsd:date,,iati-activities/iati-activity/result/indicator/period/period-start/@iso-date
+,period-end,,,iati-activities/iati-activity/result/indicator/period/period-end
+,iso-date,xsd:date,,iati-activities/iati-activity/result/indicator/period/period-end/@iso-date
+,target,,,iati-activities/iati-activity/result/indicator/period/target
+,value,xsd:string,,iati-activities/iati-activity/result/indicator/period/target/@value
+,location,,,iati-activities/iati-activity/result/indicator/period/target/location
+,ref,xsd:string,,iati-activities/iati-activity/result/indicator/period/target/location/@ref
+,dimension,,,iati-activities/iati-activity/result/indicator/period/target/dimension
+,name,xsd:string,,iati-activities/iati-activity/result/indicator/period/target/dimension/@name
+,value,xsd:string,,iati-activities/iati-activity/result/indicator/period/target/dimension/@value
+,comment,,,iati-activities/iati-activity/result/indicator/period/target/comment
+,narrative,,,iati-activities/iati-activity/result/indicator/period/target/comment/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/period/target/comment/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/period/target/comment/narrative/@xml:lang
+,document-link,,,iati-activities/iati-activity/result/indicator/period/target/document-link
+,url,xsd:anyURI,,iati-activities/iati-activity/result/indicator/period/target/document-link/@url
+,format,xsd:string,File Format,iati-activities/iati-activity/result/indicator/period/target/document-link/@format
+,title,,,iati-activities/iati-activity/result/indicator/period/target/document-link/title
+,narrative,,,iati-activities/iati-activity/result/indicator/period/target/document-link/title/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/period/target/document-link/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/period/target/document-link/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/result/indicator/period/target/document-link/description
+,narrative,,,iati-activities/iati-activity/result/indicator/period/target/document-link/description/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/period/target/document-link/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/period/target/document-link/description/narrative/@xml:lang
+,category,,,iati-activities/iati-activity/result/indicator/period/target/document-link/category
+,code,xsd:string,Document Category,iati-activities/iati-activity/result/indicator/period/target/document-link/category/@code
+,language,,,iati-activities/iati-activity/result/indicator/period/target/document-link/language
+,code,xsd:string,Language,iati-activities/iati-activity/result/indicator/period/target/document-link/language/@code
+,document-date,,,iati-activities/iati-activity/result/indicator/period/target/document-link/document-date
+,iso-date,xsd:date,,iati-activities/iati-activity/result/indicator/period/target/document-link/document-date/@iso-date
+,actual,,,iati-activities/iati-activity/result/indicator/period/actual
+,value,xsd:string,,iati-activities/iati-activity/result/indicator/period/actual/@value
+,location,,,iati-activities/iati-activity/result/indicator/period/actual/location
+,ref,xsd:string,,iati-activities/iati-activity/result/indicator/period/actual/location/@ref
+,dimension,,,iati-activities/iati-activity/result/indicator/period/actual/dimension
+,name,xsd:string,,iati-activities/iati-activity/result/indicator/period/actual/dimension/@name
+,value,xsd:string,,iati-activities/iati-activity/result/indicator/period/actual/dimension/@value
+,comment,,,iati-activities/iati-activity/result/indicator/period/actual/comment
+,narrative,,,iati-activities/iati-activity/result/indicator/period/actual/comment/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/period/actual/comment/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/period/actual/comment/narrative/@xml:lang
+,document-link,,,iati-activities/iati-activity/result/indicator/period/actual/document-link
+,url,xsd:anyURI,,iati-activities/iati-activity/result/indicator/period/actual/document-link/@url
+,format,xsd:string,File Format,iati-activities/iati-activity/result/indicator/period/actual/document-link/@format
+,title,,,iati-activities/iati-activity/result/indicator/period/actual/document-link/title
+,narrative,,,iati-activities/iati-activity/result/indicator/period/actual/document-link/title/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/period/actual/document-link/title/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/period/actual/document-link/title/narrative/@xml:lang
+,description,,,iati-activities/iati-activity/result/indicator/period/actual/document-link/description
+,narrative,,,iati-activities/iati-activity/result/indicator/period/actual/document-link/description/narrative
+,,xsd:string,,iati-activities/iati-activity/result/indicator/period/actual/document-link/description/narrative/text()
+,xml:lang,,Language,iati-activities/iati-activity/result/indicator/period/actual/document-link/description/narrative/@xml:lang
+,category,,,iati-activities/iati-activity/result/indicator/period/actual/document-link/category
+,code,xsd:string,Document Category,iati-activities/iati-activity/result/indicator/period/actual/document-link/category/@code
+,language,,,iati-activities/iati-activity/result/indicator/period/actual/document-link/language
+,code,xsd:string,Language,iati-activities/iati-activity/result/indicator/period/actual/document-link/language/@code
+,document-date,,,iati-activities/iati-activity/result/indicator/period/actual/document-link/document-date
+,iso-date,xsd:date,,iati-activities/iati-activity/result/indicator/period/actual/document-link/document-date/@iso-date
+crs-add,,,,iati-activities/iati-activity/crs-add
+,other-flags,,,iati-activities/iati-activity/crs-add/other-flags
+,code,xsd:string,CRS Additional Other Flags,iati-activities/iati-activity/crs-add/other-flags/@code
+,significance,xsd:boolean,,iati-activities/iati-activity/crs-add/other-flags/@significance
+,loan-terms,,,iati-activities/iati-activity/crs-add/loan-terms
+,rate-1,xsd:decimal,,iati-activities/iati-activity/crs-add/loan-terms/@rate-1
+,rate-2,xsd:decimal,,iati-activities/iati-activity/crs-add/loan-terms/@rate-2
+,repayment-type,,,iati-activities/iati-activity/crs-add/loan-terms/repayment-type
+,code,xsd:string,Loan Repayment Type,iati-activities/iati-activity/crs-add/loan-terms/repayment-type/@code
+,repayment-plan,,,iati-activities/iati-activity/crs-add/loan-terms/repayment-plan
+,code,xsd:string,Loan Repayment Period,iati-activities/iati-activity/crs-add/loan-terms/repayment-plan/@code
+,commitment-date,,,iati-activities/iati-activity/crs-add/loan-terms/commitment-date
+,iso-date,xsd:date,,iati-activities/iati-activity/crs-add/loan-terms/commitment-date/@iso-date
+,repayment-first-date,,,iati-activities/iati-activity/crs-add/loan-terms/repayment-first-date
+,iso-date,xsd:date,,iati-activities/iati-activity/crs-add/loan-terms/repayment-first-date/@iso-date
+,repayment-final-date,,,iati-activities/iati-activity/crs-add/loan-terms/repayment-final-date
+,iso-date,xsd:date,,iati-activities/iati-activity/crs-add/loan-terms/repayment-final-date/@iso-date
+,loan-status,,,iati-activities/iati-activity/crs-add/loan-status
+,year,xsd:decimal,,iati-activities/iati-activity/crs-add/loan-status/@year
+,currency,xsd:string,Currency,iati-activities/iati-activity/crs-add/loan-status/@currency
+,value-date,xsd:date,,iati-activities/iati-activity/crs-add/loan-status/@value-date
+,interest-received,xsd:decimal,,iati-activities/iati-activity/crs-add/loan-status/interest-received
+,principal-outstanding,xsd:decimal,,iati-activities/iati-activity/crs-add/loan-status/principal-outstanding
+,principal-arrears,xsd:decimal,,iati-activities/iati-activity/crs-add/loan-status/principal-arrears
+,interest-arrears,xsd:decimal,,iati-activities/iati-activity/crs-add/loan-status/interest-arrears
+,channel-code,xsd:string,,iati-activities/iati-activity/crs-add/channel-code
+fss,,,,iati-activities/iati-activity/fss
+,extraction-date,xsd:date,,iati-activities/iati-activity/fss/@extraction-date
+,priority,xsd:boolean,,iati-activities/iati-activity/fss/@priority
+,phaseout-year,xsd:decimal,,iati-activities/iati-activity/fss/@phaseout-year
+,forecast,,,iati-activities/iati-activity/fss/forecast
+,,xsd:decimal,,iati-activities/iati-activity/fss/forecast/text()
+,year,xsd:decimal,,iati-activities/iati-activity/fss/forecast/@year
+,currency,xsd:string,Currency,iati-activities/iati-activity/fss/forecast/@currency
+,value-date,xsd:date,,iati-activities/iati-activity/fss/forecast/@value-date
