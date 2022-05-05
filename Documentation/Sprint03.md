@@ -6,7 +6,7 @@
 
 ## Graph Structure
 
-We need to consider how to optimally organize the orientation of IATI Plus' nodes and relationships and run some test queries on the database evaluating different configurations. As part of this work, we need to convert IATI XML element and attribute fields into suitable graph labels and properties.
+We need to consider how to optimally organize the orientation of IATI Plus' nodes and relationships and run some test queries on the database evaluating different configurations. Graphical structure will closely mirror ways IATI XML data is [formatted](https://iatistandard.org/en/iati-standard/203/activity-standard/example-xml/). As part of this work, we need to convert IATI XML element and attribute fields into suitable graph labels and properties.
 
 ![IATI Plus Fields](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/IATIPlus_fields_sheet.png)
 
