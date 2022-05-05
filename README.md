@@ -1,4 +1,4 @@
-![IATI Plus](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/iati%2B.png)
+![IATI Plus](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/IATIPlus_Banner.png)
 
 The [Humanitarian AI](https://humanitarianai.org/) meetup community is launching a **call-to-action** seeking volunteers to work on quickly setting up a new IATI database to support relief efforts aiding Ukrainian refugees and IDPs.
 
