@@ -2,9 +2,13 @@
 
 ![IATI Plus Database](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/IATIPlus_sprints.png)
 
-**Sprint 01** will concentrate on creating foundational nodes (see red colored nodes) and relationships to build IATI Plus' graph database around.
+**Sprint 01** will concentrate on creating and keeping core foundational nodes (see red colored nodes and relationships) up-to-date, which IATI Plus' graph database will be built around.
 
-Initiatives like the International Aid Transparency Initiative (IATI) and [ReliefWeb](https://reliefweb.int/organization/acmad) list organizations channeling information through their initiatives. ReliefWeb is the humanitarian community's most widely used jobs and information sharing portal while IATI is the humanitarian community's most widely used information sharing standard and publishing framework. IATI Plus will recognize IATI and initiatives like ReliefWeb as **groups** or associations linking together member organizations. Then IATI Plus will establish named entity nodes for all of IATI's publishing organizations and nodes for each organization's dataset page. These core nodes will create a foundation for subsequent nodes and relationships.
+## Core Structure
+
+Initiatives like the International Aid Transparency Initiative (IATI) and [ReliefWeb](https://reliefweb.int/organization/acmad) list organizations channeling information through their initiatives. ReliefWeb is the humanitarian community's most widely used jobs and information sharing portal while IATI is the humanitarian community's most widely used information sharing standard and publishing framework. IATI Plus will recognize IATI and initiatives like ReliefWeb as **groups** or associations linking together member organizations. Then IATI Plus will establish named entity nodes for all of IATI's publishing organizations and nodes for each organization's dataset page. These core nodes will create a foundation for subsequent nodes and relationships generated from aid activity data stored in organization XML files (Sprint 02).
+
+Core nodes will be formatted and organized around storing information extracted from IATI's Publisher List. The same structure will be replicated to store information extracted from other organization groupings, for example from ReliefWeb.
 
 ## Publisher Information
 
