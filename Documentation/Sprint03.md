@@ -15,3 +15,5 @@ This [Google Doc](https://docs.google.com/spreadsheets/d/1mj63wdGwZRJ7STbadU4r_f
 ## Database Setup and Operations
 
 We need to administratively setup the database, setup user permissions, populate the database with an initial IATI corpus and tackle how researchers and applications can query the database and interact with it.
+
+But through development and testing we will practice uploading small data sample sets beginning with IATI's list of publishers (see Sprint 01) and IATI generated example organization and activity files.
