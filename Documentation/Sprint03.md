@@ -6,9 +6,11 @@
 
 ## Graph Structure
 
-We need to consider how to optimally organize the orientation of IATI Plus' nodes and relationships, generate a list of all of its labels and properties based closely on IATI XML elements and attributes and run some test queries on the database evaluating different configurations.
+![IATI Plus Fields](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/IATIPlus_fields_sheet.png)
 
-We also need to generate a conversion table matching IATI XML fields with IATI Plus labels and properties suitable for our graph database and Neo4j Cypher / Open Cypher naming conventions. See task [issue](https://github.com/Humanitarian-AI/IATIPlus/issues/8).
+We need to consider how to optimally organize the orientation of IATI Plus' nodes and relationships and run some test queries on the database evaluating different configurations. As part of this work, we need to convert IATI XML element and attribute fields into suitable graph labels and properties.
+
+This [Google Doc](https://docs.google.com/spreadsheets/d/1mj63wdGwZRJ7STbadU4r_fxtL0WtVK-D0qKS35rIBcQ/edit?usp=sharing) (shown above) lists all of IATI's information fields that we need to convert into suitable IATI Plus graph labels and properties. Field hierarchy and XML paths are included to aid conversion work. See [issue](https://github.com/Humanitarian-AI/IATIPlus/issues/8) for more inforamtion.
 
 ## Database Setup and Operations
 
