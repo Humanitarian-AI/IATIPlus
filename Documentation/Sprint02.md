@@ -4,7 +4,7 @@
 
 **Sprint 02** will concentrate on tackling how to source IATI data stored in organization datasets. See Care Nepal's [dataset](https://www.iatiregistry.org/publisher/cnepal) for reference or Oxfam GB's [dataset](https://www.iatiregistry.org/publisher/oxfamgb) to see one with more files. Datasets contain one **organization** XML file (orange) and one or more **activity** XML files (light-blue). Activity files can contain information on one or more individual activities, each with their own unique reference identifier. Granular activity information is then broken-down using standardized information fields. For testing, the project is going to try adding **author** attributes to information field elements, essentially breaking information down further.
 
-After tacking how to source and load initial data, Sprint 02 will tackle how to keep **IATI Plus** up-to-date through continuously tracking and updating file information and logging changes. Volunteers can refer to Sprint 02 [Key Tasks]() to learn more about weekly priority tasks and how to get involved.
+After tacking how to source and load initial data, Sprint 02 will tackle how to keep **IATI Plus** up-to-date through continuously tracking and updating file information and logging changes. Volunteers can refer to [Key Tasks](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Tasks.md) to learn more about weekly priority tasks and how to get involved.
 
 
 ## IATI Plus Data Types
