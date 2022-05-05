@@ -36,4 +36,4 @@ Sprint 04 will concentrate on developing prototype web and mobile interfaces for
 
 Sprint 05 will launch IATI Plus' Data Partners Program and begin helping NGOs and grassroots relief initiatives report their aid activities.
 
-[Sprint 05 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md)
+[Data Partners Program Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md)
