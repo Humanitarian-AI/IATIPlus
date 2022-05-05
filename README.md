@@ -22,7 +22,7 @@ IATI data can be accessed through a host of [initiatives](https://iatistandard.o
 
 The project is organized around **Sprints**. These will mainly work on setting up and testing different aspects of creating a sophisticated new **graph database** to store aid activity information and an accompanying **user interface**. While a connected sprint will organize and run a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md).
 
-Detailed information on sprints is stored in the project's [Documentation Folder](https://github.com/Humanitarian-AI/IATIPlus/tree/main/Documentation). We will be experimenting with using GitHub [Projects](https://github.com/orgs/Humanitarian-AI/projects/2), [Milestones](https://github.com/Humanitarian-AI/IATIPlus/milestones) and [Issues](https://github.com/Humanitarian-AI/IATIPlus/issues) to help document and coordinate the project. 
+Detailed information on sprints is stored in the project's [Documentation](https://github.com/Humanitarian-AI/IATIPlus/tree/main/Documentation) folder. We will be experimenting with using GitHub [Projects](https://github.com/orgs/Humanitarian-AI/projects/2), [Milestones](https://github.com/Humanitarian-AI/IATIPlus/milestones) and [Issues](https://github.com/Humanitarian-AI/IATIPlus/issues) to help document and coordinate the project. 
 
 ## Get Involved
 We're seeking volunteers of all levels to help work on the database and user interface and on helping humanitarian organizations and grassroots aid initiatives responding to the war and humanitarian crisis in Ukraine channel information on their activities and needs through IATI and IATI Plus.
