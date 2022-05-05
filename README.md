@@ -20,7 +20,7 @@ IATI data can be accessed through a host of [initiatives](https://iatistandard.o
 
 ## Documentation
 
-The project is organized around **Sprints** working on setting up and testing different aspects of creating a sophisticated new **graph database** to store aid activity information and an accompanying **user interface** and around a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md).
+The project is organized around **Sprints**. These will mainly work on setting up and testing different aspects of creating a sophisticated new **graph database** to store aid activity information and an accompanying **user interface**. While a connected sprint will organize and run a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md).
 
 Detailed information on sprints is stored in the project's [Documentation Folder](https://github.com/Humanitarian-AI/IATIPlus/tree/main/Documentation). We will be experimenting with using GitHub [Projects](https://github.com/orgs/Humanitarian-AI/projects/2), [Milestones](https://github.com/Humanitarian-AI/IATIPlus/milestones) and [Issues](https://github.com/Humanitarian-AI/IATIPlus/issues) to help document and coordinate the project. 
 
