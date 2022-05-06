@@ -22,7 +22,7 @@ See related [issue](https://github.com/Humanitarian-AI/IATIPlus/issues/9).
 
 ![Org and URL nodes](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/Sprint01_nodes.png)
 
-On a granular level, Sprint 01 will create approximately 1400 organization **entity** nodes and a corresponding number of **datasets page** nodes. Entity nodes will include properties found on IATI's Publisher List and break out a datasets page node with the page's URL address as a property. The page nodes will branch out nodes corresponding to XML files published by the organizations each with their own unique URL address as a property.
+On a granular level, Sprint 01 will create approximately 1400 organization **entity** nodes and a corresponding number of **datasets** nodes. Entity nodes will include properties found on IATI's Publisher List and break out a datasets node with the page's URL address as a property. Datasets nodes will also store information on known files published by the particular organization listed by title and file URL address.
 
 Although the project will only add a comparatively small number of nodes and relationships to Neptune, as a starting point the sprint will help the team begin setting up IATI Plus' core AWS components and begin generating and testing code.
 
