@@ -6,7 +6,7 @@
 
 ## Core Structure
 
-Initiatives like the International Aid Transparency Initiative (IATI) and [ReliefWeb](https://reliefweb.int/organization/acmad) list organizations channeling information through their initiatives. ReliefWeb is the humanitarian community's most widely used jobs and information sharing portal while IATI is the humanitarian community's most widely used information sharing standard and publishing framework. IATI Plus will recognize IATI and initiatives like ReliefWeb as **groups** or associations linking together member organizations.
+Initiatives like the International Aid Transparency Initiative (IATI) and [ReliefWeb](https://reliefweb.int/organization/acmad) list organizations channeling information through their initiatives. ReliefWeb is the humanitarian community's most widely used jobs and information sharing portal while IATI is the humanitarian community's most widely used information sharing standard and publishing framework. IATI Plus will recognize IATI and initiatives like ReliefWeb as different **groups** or associations linking together member organizations.
 
 IATI Plus will establish a group node for IATI as a starting point. Then it will establish branch nodes for all of IATI's publishing organizations and then nodes for each organization's dataset page. Core nodes will be formatted and organized around storing information extracted from IATI's Publisher List. The same structure will be replicated later to store information extracted from other organization groupings and their publisher lists, for example from ReliefWeb. IATI core nodes will create a foundation for subsequent nodes and relationships generated from aid activity data stored in organization XML files (Sprint 02).
 
