@@ -22,7 +22,7 @@ Sprint 02 will principally reasearch and develop ways of sourcing IATI activity 
 
 ## Sprint 03: Setup and Launch IATI Plus Database
 
-Sprint 03 will concentrate on establishing a graphical database structure for IATI Plus, setting up the graph database and testing it.
+Sprint 03 will concentrate on establishing a graphical database structure for IATI Plus and on setting up the graph database and testing it.
 
 [Sprint 03 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint03.md)
 
