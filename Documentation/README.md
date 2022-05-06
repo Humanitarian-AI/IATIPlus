@@ -2,9 +2,9 @@
 
 We are organizing the project around **Sprints** that teams can work on simultaniously.
 
-Altogether we will be building a **new IATI database** robust enough to power prototype AI applications and support needs reporting at scale, setting up a basic **user interface** to test and organizing a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md) to help more aid organizations report their needs.
+Altogether we will be building a **new IATI database** robust enough to power prototype AI applications and support needs reporting at scale, setting up a basic **user interface** to test and organizing a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md) to help aid organizations report their activities and needs in compliance with the IATI Standard.
 
-Our principle objective is to create a new database where a need for one exists and to make it available for use to organizations and developers responsind to the Ukrainian war and escalating humanitarian crisis. For our community, the new database will enable us to start work on research looking at how IATI data can be employed by emerging AI applications and virtual assistants.
+Our principle objective is to create a new database where a need for one exists and to make it available for use to organizations and developers responsind to the Ukrainian war and escalating humanitarian crisis. For our community, the new database will enable us to carry out research looking at how IATI data can be employed by emerging AI applications and virtual assistants.
 
 ## Sprint 01: Create an IATI Publisher List
 
