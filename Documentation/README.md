@@ -10,7 +10,7 @@ Our principle objective is to create a new database where a need for one exists 
 
 Sprint 01 will get the project started. It will establish the core portion of IATI Plus’s graph database and load information extracted from IATI’s Publishers List and from organization dataset pages. Next the Sprint will programmatically tackle how to keep core node information up-to-date.
 
-Core nodes will principally serve IATI Plus and **Sprint 02** by storing metadata and URL addresses of all know IATI XML files published by IATI reporting organization from which data on aid activities can be extracted.
+For Sprint 02, core nodes will store metadata and URL addresses of all know IATI XML files published by IATI reporting organization from which data on aid activities can be extracted.
 
 [Sprint01 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint01.md)
 
