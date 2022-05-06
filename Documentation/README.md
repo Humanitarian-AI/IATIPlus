@@ -16,13 +16,13 @@ For Sprint 02, core nodes will store metadata and URL addresses of all know IATI
 
 ## Sprint 02: Develop an IATI Data Extractor/Updater
 
-Sprint 02 will principally reasearch and develop ways of sourcing IATI data and ways to keep IATI Plus' database up-to-date
+Sprint 02 will principally reasearch and develop ways of sourcing IATI activity data and ways to keep IATI Plus' database up-to-date
 
 [Sprint 02 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint02.md)
 
 ## Sprint 03: Setup and Launch IATI Plus Database
 
-Sprint 03 will concentrate on researching and establishing a graphical database structure of IATI Plus and to set up the database and initially test it.
+Sprint 03 will concentrate on establishing a graphical database structure for IATI Plus, setting up the graph database and testing it.
 
 [Sprint 03 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint03.md)
 
