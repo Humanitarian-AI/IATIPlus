@@ -10,7 +10,7 @@ Initially, the interface will give volunteers working on the project a tool to u
 
 ![IATI Files](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Media/IATI_structure.png)
 
-Aid activity information reported by organizations in compliance with IATI is stored in XML files on organization servers. The files can contain information on one or more individual activities. The IATI XML Standard contains hundreds of element and attribute fields that can be used to detail and highly structure information on a granular level. IATI Plus' database will be configured to support key-value reporting and versioning at the individual author level which is something new.
+Aid activity information reported by organizations in compliance with IATI is stored in XML files on organization servers. The files can contain information on one or more individual activities. The IATI XML Standard contains hundreds of element and attribute fields that can be used to detail and highly structure information on a granular level. IATI Plus' database will be configured to support key-value reporting and versioning at the individual author level which is something new. This will make it easier to spread and track activity reporting across teams and restrict information access through versioning and publishing phases.
 
 ## IATI XML Data
 
