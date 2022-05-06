@@ -9,9 +9,9 @@ After tacking how to source and load initial data, Sprint 02 will tackle how to 
 
 ## IATI Plus Data Types
 
-IATI Plus' Neptune graph database will store a continuously updated copy of IATI's entire **corpus**. The corpus contains all know information reported by relief organizations in compliance with the IATI Standard (roughly information on over one million aid activities reported by over 1400 organizations). The database will also store a small amount of non-IATI data imported from the [Humanitarian Data Exchange](https://data.humdata.org/) and other sources as well as useful codelists and correlation tables.
+IATI Plus' Neptune graph database will store a continuously updated copy of IATI's entire **corpus**. The corpus contains all know information reported by relief organizations in compliance with the IATI Standard (roughly information on over one million aid activities reported by over 1400 organizations). The database will also store a small amount of non-IATI data imported from the [Humanitarian Data Exchange](https://data.humdata.org/), [ReliefWeb](https://reliefweb.int/) and other sources as well as useful codelists and correlation tables.
 
-Adding specialized **codelists** and **correlation tables** to IATI Plus will make it possible to research and improve the database's traversability by machine applications. Likewise, adding select data from non-IATI sources will make it possible to research ways of enhancing informational outputs through partnering with other data sources, improving the database's overall usefulness to the humanitarian community.
+Adding specialized **codelists** and **correlation tables** to IATI Plus will make it possible to research how to improve the database's traversability by machine applications. Likewise, adding select data from non-IATI sources will make it possible to research ways of enhancing informational outputs through partnering with other data sources, improving the database's overall usefulness to the humanitarian community.
  
 
 ## IATI Data Sources
