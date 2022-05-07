@@ -1,6 +1,6 @@
 # Project Documentation
 
-We are organizing the project around **Sprints** that teams can work on simultaniously.
+We are organizing the project around **Sprints** that teams can work on simultaniously and we'll be using a [Tasks-Issues-Discussion Doc](https://docs.google.com/spreadsheets/d/1xUJVYvpIOpvYXDZuZ9LRegdA7aryA1oKWyKeZcw0i3o/edit?usp=sharing) to help quide and coordinate work.
 
 Altogether we will be building a **new IATI database** robust enough to power prototype AI applications and support needs reporting at scale, setting up a basic **user interface** to test and organizing a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md) to help aid organizations report their activities and needs in compliance with the IATI Standard.
 
