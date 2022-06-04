@@ -1,39 +1,21 @@
 # Project Documentation
 
-We are organizing the project around **Sprints** that teams can work on simultaniously and we'll be using a [Tasks-Issues-Discussion Doc](https://docs.google.com/spreadsheets/d/1xUJVYvpIOpvYXDZuZ9LRegdA7aryA1oKWyKeZcw0i3o/edit?usp=sharing) to help quide and coordinate work.
+Altogether, we will be setting up a **graph database** to store IATI data, working out how to keep the database up-to-date, building a **user interface** supporting aid activity reporting and establishing a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md).
 
-Altogether we will be building a **new IATI database** robust enough to power prototype AI applications and support needs reporting at scale, setting up a basic **user interface** to test and organizing a [Data Partners Program](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md) to help aid organizations report their activities and needs in compliance with the IATI Standard.
+The project is organized around **Sprints** that teams can work on simultaneously. We'll use a Google Doc ([Tasks-Issues-Discussion](https://docs.google.com/spreadsheets/d/1xUJVYvpIOpvYXDZuZ9LRegdA7aryA1oKWyKeZcw0i3o/edit?usp=sharing)) to help coordinate tasks in detail and maintain a weekly [Priority Task List](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Tasks.md) for easy reference.
 
-Our principle objective is to create a new database where a need for one exists and to make it available for use to organizations and developers responsind to the Ukrainian war and escalating humanitarian crisis. For our community, the new database will enable us to carry out research looking at how IATI data can be employed by emerging AI applications and virtual assistants.
+## Sprints
 
-## Sprint 01: Create an IATI Publisher List
+**Sprint 01:** Will create, store and programmatically update two CSV files. One CSV file will store an up-to-date copy of IATI's **Publishers List** and the other CSV file will store the URL addresses of all known IATI XML files published by organizations reporting activities in compliance with IATI. [Sprint01 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint01.md)
 
-Sprint 01 will get the project started. It will establish the core portion of IATI Plus’s graph database and load information extracted from IATI’s Publishers List and from organization dataset pages. Next the Sprint will programmatically tackle how to keep core node information up-to-date.
+**Sprint 02:** Will tackle how to aggregate IATI data and keep our graph database up-to-date. We will research two methodologies, one relying on extracting data directly from XML files stored on organizations and third-party web servers and another way relying on extracting IATI data from a daily **Data Dump**. [Sprint 02 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint02.md)
 
-For Sprint 02, core nodes will store metadata and URL addresses of all know IATI XML files published by IATI reporting organization from which data on aid activities can be extracted.
+**Sprint 03:** Will setup and maintain the project's graph database. The sprint will design and build the database and work out how to query it. The sprint will also research and establish the database's graphical structure and begin work on developing and testing basic and advanced Cypher query strings.[Sprint 03 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint03.md)
 
-[Sprint01 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint01.md)
+**Sprint 04:** Will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and give humanitarian organizations participating in our **Data Partners** program a way to report aid activities. [Sprint04 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint04.md)
 
-## Sprint 02: Develop an IATI Data Extractor/Updater
+**Sprint 05:** Will launch the project's **Data Partners Program** and begin helping NGOs and grassroots relief initiatives report their aid activities. [Data Partners Program Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md)
 
-Sprint 02 will principally reasearch and develop ways of sourcing IATI activity data and ways to keep IATI Plus' database up-to-date
+## Get Involved
 
-[Sprint 02 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint02.md)
-
-## Sprint 03: Setup and Launch IATI Plus Database
-
-Sprint 03 will concentrate on establishing a graphical database structure for IATI Plus and on setting up the graph database and testing it.
-
-[Sprint 03 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint03.md)
-
-## Sprint 04: Setup User Interface
-
-Sprint 04 will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and queries and the user interface will give humanitarian organizations participating in our **Data Partners** program a way to test report aid activities. We'll use [IATIPlus.org](http://iatiplus.org) for the web interface.
-
-[Sprint04 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint04.md)
-
-## Sprint 05: Launch Data Partners Program
-
-Sprint 05 will launch IATI Plus' Data Partners Program and begin helping NGOs and grassroots relief initiatives report their aid activities.
-
-[Data Partners Program Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/DataPartners.md)
+To join the project and the project's Slack workspace or to learn more about the project, contact: **team (at) humanitarianai.org**
