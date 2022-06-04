@@ -14,7 +14,7 @@ Our new database (**IATI Plus**) will help make reporting aid activities by orga
 
 On a technical level, organizations report activities by storing information on their web servers converted into XML code using the [IATI Standard](https://iatistandard.org/en/iati-standard/), then organizations share file metadata with the [IATI Registry](https://www.iatiregistry.org/), making all the information aggregatable, searchable and usable to power a broad range of applications. For reference, an actual activity file containing information on five activities carried out by Oxfam GB in Senegal can be found [here](http://iati.oxfam.org.uk/xml/oxfamgb-sn.xml).
 
-IATI data can be accessed through a host of [initiatives](https://iatistandard.org/en/iati-tools-and-resources/) but none are sufficiently capable of powering consumer grade reporting applications operating at scale for example setup to support relief efforts responding to a major crisis or to support sophisticated research initiatives and training of machine learning models.
+IATI data can be accessed directly stored on organization servers or through a host of registries, datastores and APIs but these [resources](https://iatistandard.org/en/iati-tools-and-resources/) aren’t setup to power sophisticated consumer grade reporting applications operating at scale or to support the training and testing of machine learning models.
 
 **IATI Plus** will contribute to addressing these problems and help spur and support the development of new humanitarian-data-powered applications, including virtual assistants and artificial intelligent applications.
 
