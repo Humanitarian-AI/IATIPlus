@@ -1,6 +1,6 @@
-# Key Tasks
+# Priority Task List
 
-Follow this list for inforamtion on key tasks across all project Sprints. Last updated (05/05/22).
+Follow this regularly updated list for inforamtion on key tasks for current the week. Last updated (06/01/22).
 
 Issue | Task
 --- | ---
