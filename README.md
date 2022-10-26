@@ -4,7 +4,7 @@ The [Humanitarian AI](https://humanitarianai.org/) meetup community is launching
 
 ## Project
 
-IATI is a reporting framework humanitarian organizations use to openly share information on aid activities, transactions and results in granular detail. Reporting activities in compliance with IATI helps improve operational transparency, benefitting operational planning, fundraising and coordination across organizations and crisis theaters.
+IATI is a reporting framework humanitarian organizations use to openly share information on aid activities, transactions and results in granular detail. Reporting activities in compliance with IATI helps improve operational transparency, benefitting operational planning, fundraising and coordination across organizations, digital applications, and crisis theaters.
 
 The framework is managed by the [International Aid Transparency Initiative](https://iatistandard.org/en/), supported by the United Nations, mandated by many government development agencies and used today by over 1400 organizations and donors to store information on over 1 million aid activities. Although IATI was originally setup in 2008 to track development aid flows, it has evolved to become a general use reporting framework and the best source of highly structured aid activity information accessible to machine applications
 
