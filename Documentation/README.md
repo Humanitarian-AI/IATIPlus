@@ -10,7 +10,7 @@ The project is organized around **Sprints** that teams can work on simultaneousl
 
 **Sprint 02:** Will tackle how to aggregate IATI data and keep our graph database up-to-date. We will research two methodologies, one relying on extracting data directly from XML files stored on organizations and third-party web servers and another way relying on extracting IATI data from a daily **Data Dump**. [Sprint 02 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint02.md)
 
-**Sprint 03:** Will setup and maintain the project's graph database. The sprint will design and build the database and work out how to query it. The sprint will also research and establish the database's graphical structure and begin work on developing and testing basic and advanced Cypher query strings.[Sprint 03 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint03.md)
+**Sprint 03:** Will setup and maintain the project's graph database. The sprint will design and build the database and work out how to query it. The sprint will also research and establish the database's graphical structure and begin work on developing and testing basic and advanced Cypher query strings. [Sprint 03 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint03.md)
 
 **Sprint 04:** Will concentrate on developing prototype web and mobile interfaces for the database. The interfaces will give volunteers an easy way to test database functionality and give humanitarian organizations participating in our **Data Partners** program a way to report aid activities. [Sprint04 Documentation](https://github.com/Humanitarian-AI/IATIPlus/blob/main/Documentation/Sprint04.md)
 
