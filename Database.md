@@ -19,9 +19,9 @@ Graph structure, labels and properties
 
 ## Cypher Quaries
 
-We're asking beta users to help develop Cyper queries, in GitHub Gists.
+We're asking beta users to help develop Cyper queries, in GitHub Gists and help use generate a Neo4j CoLab tutorial for users and a CoLab workspace to use to develop and comment on queries.
 
-| Query Title | Gist |
+| Query Description | Gist |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Basic Query  | https://gist.github.com/Brentophillips/9c8dc2aba421321715558843bfb47ef1  |
 | Content Cell  | Content Cell  |
