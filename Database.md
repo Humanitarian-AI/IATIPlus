@@ -4,6 +4,19 @@ The IATI Plus initiative is using a [Neo4j](https://neo4j.com/) graph database t
 
 Sign-up here to help beta test the database: [Sign-up form]().
 
+## Documentation
+
+The initiative converts activity information stored in XML files into nodes and relationships.
+
+Graph structure, labels and properties
+
+| Resources | URL |
+| ------------- | ------------- |
+| XML Files  | Content Cell  |
+| XML Elemewnts and Attributes  | Content Cell  |
+| Graphical Structure  | Content Cell  |
+| Labels and Properties  | Content Cell  |
+
 ## Cypher Quaries
 
 We're asking beta users to help develop Cyper queries, in GitHub Gists.
