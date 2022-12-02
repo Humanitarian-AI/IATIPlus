@@ -2,7 +2,7 @@
 
 The IATI Plus initiative is using a [Neo4j](https://neo4j.com/) graph database to store humanitarian aid activity information published by organizations in compliance with the IATI Standard.
 
-Sign-up here to help beta test the database: [Sign-up form]().
+Sign-up here to help beta test the database: [Sign-up form](). Beta users will be asked to provide information about their organizations and agree to join Slack workspace and help develop and document Cypher queries and provide other input.
 
 ## Documentation
 
